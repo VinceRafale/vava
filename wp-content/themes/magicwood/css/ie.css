@@ -1,0 +1,206 @@
+	#content {
+		padding-top:30px;
+	}
+	body{background:url(../images/top.png) left top repeat-x;}
+	#content .container {
+	}
+	#logo {
+		position:absolute;
+		top:37px;
+	}
+	.menusearch {
+		width:260px;
+		position:relative;
+		top:11px;
+	}
+	/*------------------------------ MENU ------------------------------*/
+	#secondarymenu-container {
+		height:36px;
+		position:relative;
+		z-index:11;
+	}
+	
+	
+	#secondarymenu {
+		float:right;
+		margin-top:14px;
+		margin-right:30px;
+	}
+	#secondarymenu a {
+		padding:3px 9px;
+		color:#706d6d;
+		font-size:12px;
+		text-transform:lowercase;
+		font-family: 'sintonyregular';
+	}
+	#secondarymenu a:hover{
+		background:#ace22b;
+	}
+	#header-block {
+		position:relative;
+	}
+	
+	#mainmenu-container {
+		height:122px;
+		z-index:18;
+	}
+	#mainmenu{
+		height:45px;
+		margin:39px 0;
+		float:right;
+	}
+	#mainmenu li a {
+		padding:11px 20px;
+		font-size:20px;
+		color:#706d6d;
+		font-family: 'mondabold';
+	}
+	#mainmenu li {
+		position:relative;
+		border-bottom:1px solid #fff;
+	}
+	#mainmenu li:hover{
+		color:#8ebc1f;
+		border-bottom:1px solid #e9e9e9;
+	}
+	#mainmenu li.current-menu-item{
+		border-bottom:1px solid #706d6d;
+	}
+
+	#header li ul {	top:23px; }
+	#header #mainmenu li ul { top:44px; }
+	
+	#header li ul .transparent {	}
+	#header li ul .inner { 
+		background:#fff;
+		border:1px solid #e9e9e9;
+	}
+	#header #mainmenu li ul .transparent {	}
+	#header #mainmenu li ul .inner {	
+		background:#fff;
+		border:1px solid #e9e9e9;
+	}
+	#header ul.children li, #header .sub-menu li{border:none !important;}
+	#header ul.children li a, #header .sub-menu li a {
+		color:#706d6d;
+		padding:0 20px !important;
+		text-align:left;
+	}
+	#header ul.children li a:hover, #header .sub-menu li a:hover {	
+		color:#53700e;
+		background:none;
+	}
+	
+	#header #mainmenu ul.children li a, #header #mainmenu .sub-menu li a {
+		color:#706d6d;
+		font-family: 'mondabold' !important;
+		font-size:16px !important;
+		padding:0 20px !important;
+		text-align:left;
+		border:none;
+	}
+	#header #mainmenu ul.children li a:hover, #header #mainmenu .sub-menu li a:hover {		
+		color:#53700e;
+	}
+	
+	/*------------------------------ SLIDER ------------------------------*/
+	.slider-container {	
+		position:realtive;
+		margin:1px auto 30px;
+		width:1000px;
+		height:400px;
+		border:1px solid #ace22b;
+	}
+	.slider {		
+	}
+	.fp-next, .fp-prev {
+		margin:0 -17px;
+		width:44px;
+		height:390px;
+	}
+	
+	.fp-prev-next-wrap {
+		margin:0 0px;
+	}
+	.slider-nothumb .fp-slides, .slider-nothumb .fp-thumbnail, .slider-nothumb .fp-slides-items {
+		height:188px;
+	}
+	.fp-slides,.fp-thumbnail,.fp-slides-items  {
+		height:400px;
+		width:1000px;
+	}
+	.fp-content-fon {
+		border:none;
+		background:#ace22b;
+		-moz-opacity: 1;
+		opacity: 1;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
+		width:363px;
+		height:92px;
+		left:29px;
+		bottom:58px;
+	}
+	
+	.fp-title {
+		display:inline-block;
+		background:#ace22b;
+		padding:27px 10px;
+		margin-bottom:20px;
+		width:220px;
+		height:51px;
+		line-height:51px;
+		vertical-align:middle;
+		position:relative;
+	}
+	.fp-title a{
+		color:#706d6d;
+		font-size:50px;
+		font-family: 'mondabold';
+		text-decoration:none;
+		padding:0;
+	}
+	.fp-content {
+	    top:127px;
+		font-size: 13px;
+		height:207px;
+		left:9px;
+		right: 608px;
+		text-align: left;
+	}
+	.fp-content p{
+		padding-left:10px;
+		color:#706d6d;
+	}
+	.fp-more{
+		float:right;
+		text-transform:lowercase;
+		color:#706d6d !important;
+	}
+	.fp-nav {
+		bottom: -11px;
+		left: 0;
+		right: 0;
+	}
+	.fp-pager a{
+		width:15px;
+		height:15px;
+	}
+	.slider-nothumb .fp-content-fon {
+		background:#fff;
+	}
+	.slider-nothumb .fp-content a,.slider-nothumb .fp-content p{
+		color:#000;
+	}
+	
+	#footer .footer_txt .container {
+		
+	}
+	.content-r #main_content, .content-r2 #main_content{
+		padding:0 40px 20px 0;
+	}
+	.content-l #main_content, .content-l2 #main_content{
+		padding:0 0 40px 20px;
+	}
+	.content-lr #main_content{
+		padding:0 40px 20px;
+	}

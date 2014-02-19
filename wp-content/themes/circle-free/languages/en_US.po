@@ -1,0 +1,1567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Circle Free v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-09 15:25+0700\n"
+"PO-Revision-Date: 2013-11-27 03:49:52+0000\n"
+"Last-Translator: kopasoft <kopasoft@gmail.com>\n"
+"Language-Team: KOPASOFT <kopasoft@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:9
+#@ circle-free
+msgid "404"
+msgstr ""
+
+#: 404.php:12
+#@ circle-free
+msgid "Page not found..."
+msgstr ""
+
+#: 404.php:13
+#@ circle-free
+msgid "We're sorry, but we can't find the page you were looking for. It's probably some thing we've done wrong but now we know about it we'll try to fix it. In the meantime, try one of this options:"
+msgstr ""
+
+#: 404.php:15
+#@ circle-free
+msgid "Go back to previous page"
+msgstr ""
+
+#: 404.php:16
+#@ circle-free
+msgid "Go to homepage"
+msgstr ""
+
+#: comments.php:3
+#@ circle-free
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:12
+#@ circle-free
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:12
+#: library/includes/ajax.php:556
+#: library/includes/ajax.php:589
+#: library/includes/ajax.php:619
+#: library/includes/ajax.php:641
+#: library/includes/ajax.php:683
+#: library/includes/shortcodes.php:506
+#: library/includes/widgets.php:291
+#: library/includes/widgets.php:313
+#: library/includes/widgets.php:447
+#: library/includes/widgets.php:493
+#: loop-blog-2.php:108
+#: loop-blog-3.php:116
+#: loop-search.php:33
+#: loop-single-1.php:60
+#: loop-single-2.php:60
+#@ circle-free
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:12
+#: library/includes/ajax.php:556
+#: library/includes/ajax.php:589
+#: library/includes/ajax.php:619
+#: library/includes/ajax.php:641
+#: library/includes/ajax.php:683
+#: library/includes/widgets.php:291
+#: library/includes/widgets.php:313
+#: library/includes/widgets.php:447
+#: library/includes/widgets.php:493
+#: loop-blog-2.php:108
+#: loop-blog-3.php:116
+#: loop-search.php:33
+#: loop-single-1.php:60
+#: loop-single-2.php:60
+#@ circle-free
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:51
+#@ circle-free
+msgid "Edit"
+msgstr ""
+
+#: comments.php:68
+#@ circle-free
+msgid "Name <span>(required):</span>"
+msgstr ""
+
+#: comments.php:74
+#@ circle-free
+msgid "Email <span>(required):</span>"
+msgstr ""
+
+#: comments.php:80
+#@ circle-free
+msgid "Website"
+msgstr ""
+
+#: comments.php:87
+#@ circle-free
+msgid "Message <span>(required):</span>"
+msgstr ""
+
+#: comments.php:94
+#, php-format
+#@ circle-free
+msgid "You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:95
+#, php-format
+#@ circle-free
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: comments.php:95
+#@ circle-free
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:96
+#@ circle-free
+msgid "Your email address will not be published. Required fields are marked <span>(required):</span>"
+msgstr ""
+
+#: comments.php:100
+#@ circle-free
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:101
+#: library/front.php:645
+#@ circle-free
+msgid "Reply"
+msgstr ""
+
+#: comments.php:102
+#@ circle-free
+msgid "Cancel"
+msgstr ""
+
+#: comments.php:103
+#: library/front.php:269
+#@ circle-free
+msgid "Submit"
+msgstr ""
+
+#: footer.php:74
+#@ circle-free
+msgid "Back to Top"
+msgstr ""
+
+#: header.php:41
+#@ circle-free
+msgid "Menu"
+msgstr ""
+
+#: header.php:85
+#: library/front.php:837
+#: library/front.php:862
+#: library/includes/cpanel/theme-options/post.php:32
+#@ circle-free
+msgid "Facebook"
+msgstr ""
+
+#: header.php:86
+#: library/front.php:841
+#: library/front.php:869
+#: library/includes/cpanel/theme-options/post.php:33
+#@ circle-free
+msgid "Twitter"
+msgstr ""
+
+#: header.php:87
+#: library/includes/cpanel/theme-options/post.php:36
+#@ circle-free
+msgid "Pinterest"
+msgstr ""
+
+#: header.php:88
+#: library/includes/cpanel/theme-options/post.php:34
+#@ circle-free
+msgid "Google"
+msgstr ""
+
+#: header.php:89
+#@ circle-free
+msgid "Dribbble"
+msgstr ""
+
+#: header.php:90
+#@ circle-free
+msgid "Linkedin"
+msgstr ""
+
+#: header.php:91
+#@ circle-free
+msgid "Deviantart"
+msgstr ""
+
+#: header.php:92
+#@ circle-free
+msgid "Wordpress"
+msgstr ""
+
+#: header.php:93
+#@ circle-free
+msgid "Youtube"
+msgstr ""
+
+#: header.php:94
+#@ circle-free
+msgid "Flickr"
+msgstr ""
+
+#: header.php:95
+#@ circle-free
+msgid "Vimeo"
+msgstr ""
+
+#: header.php:105
+#: header.php:109
+#@ circle-free
+msgid "RSS"
+msgstr ""
+
+#: loop-blog-2.php:104
+#: loop-search.php:29
+#: loop-single-1.php:56
+#: loop-single-2.php:56
+#@ circle-free
+msgid "by:"
+msgstr ""
+
+#: loop-blog-2.php:106
+#: loop-blog-3.php:114
+#: loop-search.php:31
+#: loop-single-1.php:58
+#: loop-single-2.php:58
+#@ circle-free
+msgid "in:"
+msgstr ""
+
+#: library/includes/ajax.php:556
+#: library/includes/ajax.php:589
+#: library/includes/ajax.php:619
+#: library/includes/ajax.php:641
+#: library/includes/ajax.php:683
+#: library/includes/widgets.php:291
+#: library/includes/widgets.php:313
+#: library/includes/widgets.php:447
+#: loop-blog-2.php:108
+#: loop-blog-3.php:116
+#: loop-search.php:33
+#: loop-single-1.php:60
+#: loop-single-2.php:60
+#@ circle-free
+msgid "No Comment"
+msgstr ""
+
+#: library/front.php:645
+#: library/includes/ajax.php:556
+#: library/includes/ajax.php:589
+#: library/includes/ajax.php:619
+#: library/includes/ajax.php:641
+#: library/includes/ajax.php:683
+#: library/includes/widgets.php:291
+#: library/includes/widgets.php:313
+#: library/includes/widgets.php:447
+#: library/includes/widgets.php:493
+#: loop-blog-2.php:108
+#: loop-blog-3.php:116
+#: loop-search.php:33
+#: loop-single-1.php:60
+#: loop-single-2.php:60
+#@ circle-free
+msgid "Comments Off"
+msgstr ""
+
+#: library/includes/widgets.php:295
+#: library/includes/widgets.php:317
+#: library/includes/widgets.php:451
+#: library/includes/widgets.php:851
+#: loop-blog-2.php:116
+#: loop-blog-3.php:123
+#: loop-search.php:41
+#@ circle-free
+msgid "Read more &raquo;"
+msgstr ""
+
+#: loop-blog-3.php:46
+#@ circle-free
+msgid "Posted by"
+msgstr ""
+
+#: loop-search.php:6
+#@ circle-free
+msgid "No items found"
+msgstr ""
+
+#: loop-single-1.php:77
+#: loop-single-2.php:78
+#@ circle-free
+msgid "Next Article&nbsp;&raquo;"
+msgstr ""
+
+#: pagination.php:19
+#@ circle-free
+msgid "Previous"
+msgstr ""
+
+#: pagination.php:20
+#@ circle-free
+msgid "Next"
+msgstr ""
+
+#: library/front.php:727
+#, php-format
+#@ circle-free
+msgid "%1$s Views"
+msgstr ""
+
+#: library/front.php:728
+#: library/includes/ajax.php:457
+#, php-format
+#@ circle-free
+msgid "%1$s Likes"
+msgstr ""
+
+#: library/front.php:481
+#: searchform.php:6
+#@ circle-free
+msgid "Search"
+msgstr ""
+
+#: library/front.php:17
+#@ circle-free
+msgid "Main Menu"
+msgstr ""
+
+#: library/front.php:308
+#, php-format
+#@ circle-free
+msgid "Page %s"
+msgstr ""
+
+#: library/front.php:313
+#@ circle-free
+msgid "Small (Kopatheme)"
+msgstr ""
+
+#: library/front.php:314
+#@ circle-free
+msgid "Medium (Kopatheme)"
+msgstr ""
+
+#: library/front.php:315
+#@ circle-free
+msgid "Elastic Slide (Kopatheme)"
+msgstr ""
+
+#: library/front.php:316
+#@ circle-free
+msgid "Squence Slide (Kopatheme)"
+msgstr ""
+
+#: library/front.php:317
+#@ circle-free
+msgid "Client Logo (Kopatheme)"
+msgstr ""
+
+#: library/front.php:318
+#@ circle-free
+msgid "Staff Avatar (Kopatheme)"
+msgstr ""
+
+#: library/front.php:319
+#@ circle-free
+msgid "255x255 (Kopatheme)"
+msgstr ""
+
+#: library/front.php:336
+#: library/front.php:337
+#@ circle-free
+msgid "auto"
+msgstr ""
+
+#: library/front.php:373
+#: library/front.php:1206
+#: library/front.php:1209
+#@ circle-free
+msgid "Home"
+msgstr ""
+
+#: library/front.php:482
+#, php-format
+#@ circle-free
+msgid "Your search for \"<span>%1$s</span>\" returned \"<span>%2$s</span>\" posts"
+msgstr ""
+
+#: library/front.php:487
+#, php-format
+#@ circle-free
+msgid "Posts created by %1$s"
+msgstr ""
+
+#: library/front.php:490
+#@ circle-free
+msgid "Page not found"
+msgstr ""
+
+#: library/front.php:545
+#@ circle-free
+msgid "Related articles"
+msgstr ""
+
+#: library/front.php:645
+#@ circle-free
+msgid "1"
+msgstr ""
+
+#: library/front.php:645
+#@ circle-free
+msgid "%"
+msgstr ""
+
+#: library/front.php:706
+#@ circle-free
+msgid "Related Project"
+msgstr ""
+
+#: library/front.php:824
+#@ circle-free
+msgid "Posted by:"
+msgstr ""
+
+#: library/front.php:834
+#@ circle-free
+msgid "Follow:"
+msgstr ""
+
+#: library/front.php:845
+#@ circle-free
+msgid "Google+"
+msgstr ""
+
+#: library/front.php:865
+#@ circle-free
+msgid "Please enter your Facebook URL"
+msgstr ""
+
+#: library/front.php:872
+#@ circle-free
+msgid "Please enter your Twitter URL"
+msgstr ""
+
+#: library/front.php:876
+#@ circle-free
+msgid "Google Plus"
+msgstr ""
+
+#: library/front.php:879
+#@ circle-free
+msgid "Please enter your Google Plus URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:20
+#: library/kopa.php:30
+#@ circle-free
+msgid "Theme Options"
+msgstr ""
+
+#: library/kopa.php:37
+#@ circle-free
+msgid "Sidebar Manage"
+msgstr ""
+
+#: library/kopa.php:37
+#@ circle-free
+msgid "Sidebar Manager"
+msgstr ""
+
+#: library/kopa.php:44
+#@ circle-free
+msgid "Layout Manage"
+msgstr ""
+
+#: library/kopa.php:44
+#@ circle-free
+msgid "Layout Manager"
+msgstr ""
+
+#: library/includes/ajax.php:314
+#@ circle-free
+msgid "Oops! errors occured."
+msgstr ""
+
+#: library/includes/ajax.php:408
+#@ circle-free
+msgid "Pin It"
+msgstr ""
+
+#: library/includes/ajax.php:413
+#@ circle-free
+msgid "I wanted you to see this site"
+msgstr ""
+
+#: library/includes/ajax.php:413
+#@ circle-free
+msgid "Share by Email"
+msgstr ""
+
+#: library/includes/ajax.php:413
+#@ circle-free
+msgid "Mail To"
+msgstr ""
+
+#: library/includes/ajax.php:529
+#@ circle-free
+msgid " Article"
+msgstr ""
+
+#: library/includes/ajax.php:530
+#@ circle-free
+msgid " Articles"
+msgstr ""
+
+#: library/includes/ajax.php:592
+#: library/includes/ajax.php:650
+#: library/includes/ajax.php:686
+#@ circle-free
+msgid "Continue Reading &raquo;"
+msgstr ""
+
+#: library/includes/shortcodes.php:355
+#@ circle-free
+msgid "Name (required):"
+msgstr ""
+
+#: library/includes/shortcodes.php:360
+#@ circle-free
+msgid "Email (required):"
+msgstr ""
+
+#: library/includes/ajax.php:305
+#: library/includes/shortcodes.php:365
+#@ circle-free
+msgid "Website:"
+msgstr ""
+
+#: library/includes/shortcodes.php:370
+#@ circle-free
+msgid "Message (required):"
+msgstr ""
+
+#: library/includes/shortcodes.php:375
+#@ circle-free
+msgid "Send"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:111
+#: library/includes/shortcodes.php:391
+#@ circle-free
+msgid "Contact Information"
+msgstr ""
+
+#: library/includes/shortcodes.php:502
+#: library/includes/widgets.php:493
+#@ circle-free
+msgid "0 Comments"
+msgstr ""
+
+#: library/includes/shortcodes.php:504
+#@ circle-free
+msgid " Comments"
+msgstr ""
+
+#: library/includes/shortcodes.php:510
+#@ circle-free
+msgid "Comments off"
+msgstr ""
+
+#: library/includes/widgets.php:183
+#: library/includes/widgets.php:580
+#: library/includes/widgets.php:640
+#: library/includes/widgets.php:724
+#: library/includes/widgets.php:790
+#@ circle-free
+msgid "Title:"
+msgstr ""
+
+#: library/includes/widgets.php:188
+#@ circle-free
+msgid "Categories:"
+msgstr ""
+
+#: library/includes/widgets.php:190
+#: library/includes/widgets.php:217
+#@ circle-free
+msgid "-- None --"
+msgstr ""
+
+#: library/includes/widgets.php:201
+#@ circle-free
+msgid "Relation:"
+msgstr ""
+
+#: library/includes/widgets.php:205
+#@ circle-free
+msgid "And"
+msgstr ""
+
+#: library/includes/widgets.php:206
+#@ circle-free
+msgid "Or"
+msgstr ""
+
+#: library/includes/widgets.php:215
+#@ circle-free
+msgid "Tags:"
+msgstr ""
+
+#: library/includes/widgets.php:227
+#@ circle-free
+msgid "Number of article:"
+msgstr ""
+
+#: library/includes/widgets.php:238
+#@ circle-free
+msgid "Orderby:"
+msgstr ""
+
+#: library/includes/widgets.php:242
+#@ circle-free
+msgid "Lastest"
+msgstr ""
+
+#: library/includes/widgets.php:243
+#@ circle-free
+msgid "Popular by View Count"
+msgstr ""
+
+#: library/includes/widgets.php:244
+#@ circle-free
+msgid "Popular by Comment Count"
+msgstr ""
+
+#: library/includes/widgets.php:245
+#@ circle-free
+msgid "Random"
+msgstr ""
+
+#: library/includes/widgets.php:261
+#: library/includes/widgets.php:339
+#: library/includes/widgets.php:469
+#@ circle-free
+msgid "Display list of articles filter by categories (and/or) tags"
+msgstr ""
+
+#: library/includes/widgets.php:263
+#@ circle-free
+msgid "Kopa Article List Large Thumbnail"
+msgstr ""
+
+#: library/includes/widgets.php:341
+#@ circle-free
+msgid "Kopa Article List Medium Thumbnail"
+msgstr ""
+
+#: library/includes/widgets.php:471
+#@ circle-free
+msgid "Kopa Article List Small Thumbnail"
+msgstr ""
+
+#: library/includes/widgets.php:511
+#@ circle-free
+msgid "Display recent comments"
+msgstr ""
+
+#: library/includes/widgets.php:513
+#@ circle-free
+msgid "Kopa Recent Comments"
+msgstr ""
+
+#: library/includes/widgets.php:548
+#, php-format
+#@ circle-free
+msgid "%1$s says:"
+msgstr ""
+
+#: library/includes/widgets.php:584
+#@ circle-free
+msgid "Number of comments to show:"
+msgstr ""
+
+#: library/includes/widgets.php:588
+#@ circle-free
+msgid "Character limit of comment content"
+msgstr ""
+
+#: library/includes/widgets.php:593
+#@ circle-free
+msgid "Show Avatar"
+msgstr ""
+
+#: library/includes/widgets.php:603
+#@ circle-free
+msgid "Arbitrary text, HTML or shortcodes"
+msgstr ""
+
+#: library/includes/widgets.php:605
+#@ circle-free
+msgid "Kopa Text"
+msgstr ""
+
+#: library/includes/widgets.php:674
+#@ circle-free
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: library/includes/widgets.php:732
+#@ circle-free
+msgid "Limit:"
+msgstr ""
+
+#: library/includes/widgets.php:684
+#@ circle-free
+msgid "Display lastets flickr photos"
+msgstr ""
+
+#: library/includes/widgets.php:686
+#@ circle-free
+msgid "Kopa Flickr"
+msgstr ""
+
+#: library/includes/ajax.php:701
+#@ circle-free
+msgid "All"
+msgstr ""
+
+#: library/includes/widgets.php:750
+#@ circle-free
+msgid "Display Banner in sidebar"
+msgstr ""
+
+#: library/includes/widgets.php:752
+#@ circle-free
+msgid "Kopa Banner"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:16
+#: library/includes/cpanel/theme-options/general.php:49
+#: library/includes/cpanel/theme-options/general.php:60
+#: library/includes/cpanel/theme-options/general.php:65
+#: library/includes/cpanel/theme-options/general.php:71
+#: library/includes/cpanel/theme-options/general.php:77
+#: library/includes/widgets.php:796
+#@ circle-free
+msgid "Upload"
+msgstr ""
+
+#: library/includes/widgets.php:800
+#@ circle-free
+msgid "URL:"
+msgstr ""
+
+#: library/includes/widgets.php:812
+#@ circle-free
+msgid "Display list of articles filter by categories (and/or) tags "
+msgstr ""
+
+#: library/includes/widgets.php:814
+#@ circle-free
+msgid "Kopa Article List No Thumbnail"
+msgstr ""
+
+#: library/includes/widgets.php:848
+#@ circle-free
+msgid "No comments"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:10
+#@ circle-free
+msgid "General Setting"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:11
+#@ circle-free
+msgid "Single Post"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:5
+#: library/includes/cpanel/theme-options.php:12
+#@ circle-free
+msgid "Social Links"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-css.php:5
+#: library/includes/cpanel/theme-options.php:13
+#@ circle-free
+msgid "Custom CSS"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:24
+#@ circle-free
+msgid "Visit author URL:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options.php:31
+#: library/includes/cpanel/theme-options.php:48
+#@ circle-free
+msgid "Save"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/custom-css.php:10
+#@ circle-free
+msgid "Enter the your custom CSS code"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:21
+#: library/includes/cpanel/theme-options/general.php:27
+#: library/includes/cpanel/theme-options/general.php:33
+#: library/includes/cpanel/theme-options/general.php:39
+#@ circle-free
+msgid "px"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:6
+#@ circle-free
+msgid "Logo, Favicon, Apple Icon"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:12
+#@ circle-free
+msgid "Logo"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:13
+#@ circle-free
+msgid "Upload your own logo."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:18
+#@ circle-free
+msgid "Logo margin"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:19
+#@ circle-free
+msgid "Top margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:25
+#@ circle-free
+msgid "Left margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:31
+#@ circle-free
+msgid "Right margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:37
+#@ circle-free
+msgid "Bottom margin:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:44
+#@ circle-free
+msgid "Favicon"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:46
+#@ circle-free
+msgid "Upload your own favicon."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:55
+#@ circle-free
+msgid "Apple Icons"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:57
+#@ circle-free
+msgid "Iphone (57px - 57px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:62
+#@ circle-free
+msgid "Iphone Retina (114px - 114px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:68
+#@ circle-free
+msgid "Ipad (72px - 72px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:74
+#@ circle-free
+msgid "Ipad Retina (144px - 144px)"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:87
+#@ circle-free
+msgid "Main Content"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:93
+#@ circle-free
+msgid "Play Video in lightbox"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:96
+#@ circle-free
+msgid "Enable"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:97
+#@ circle-free
+msgid "Disable"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:116
+#@ circle-free
+msgid "Show contact information at the header"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:117
+#@ circle-free
+msgid "Email:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:121
+#@ circle-free
+msgid "Phone number:"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:75
+#@ circle-free
+msgid "-- Hide --"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:76
+#@ circle-free
+msgid "Tag"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:87
+#@ circle-free
+msgid "Limit"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:129
+#@ circle-free
+msgid "Footer"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:135
+#@ circle-free
+msgid "Background"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:136
+#@ circle-free
+msgid "Theme support two footer style: Dark & Light"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:139
+#@ circle-free
+msgid "Dark"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:140
+#@ circle-free
+msgid "Light"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:153
+#@ circle-free
+msgid "Custom Footer"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:154
+#@ circle-free
+msgid "Enter the content you want to display in your footer (e.g. copyright text)."
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:160
+#@ circle-free
+msgid "Google Analytics"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/general.php:161
+#@ circle-free
+msgid "Enter Google Analytics code. This should be something like: &ltscript type=\"text/javascript\"&gt;  ...  &lt;/script&gt;"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:5
+#@ circle-free
+msgid "About Author"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:11
+#: library/includes/cpanel/theme-options/post.php:40
+#@ circle-free
+msgid "Show"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:12
+#: library/includes/cpanel/theme-options/post.php:41
+#@ circle-free
+msgid "Hide"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:27
+#@ circle-free
+msgid "Sharing Buttons"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:35
+#@ circle-free
+msgid "LinkedIn"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:37
+#@ circle-free
+msgid "Email"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:65
+#@ circle-free
+msgid "Related Posts"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:71
+#@ circle-free
+msgid "Get By"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/post.php:77
+#@ circle-free
+msgid "Category"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:12
+#@ circle-free
+msgid "RSS URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:13
+#@ circle-free
+msgid "Display the RSS feed button with the default RSS feed or enter a custom feed below. <br><code>Enter <b>\"HIDE\"</b> if you want to hide it</code>"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:19
+#@ circle-free
+msgid "Facebook_URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:25
+#@ circle-free
+msgid "Twitter URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:31
+#@ circle-free
+msgid "Pinterest URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:36
+#@ circle-free
+msgid "Google Plus URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:41
+#@ circle-free
+msgid "Dribbble URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:46
+#@ circle-free
+msgid "LinkedIn URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:50
+#@ circle-free
+msgid "Deviantart URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:54
+#@ circle-free
+msgid "Wordpress URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:58
+#@ circle-free
+msgid "Youtube URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:62
+#@ circle-free
+msgid "Flickr URL"
+msgstr ""
+
+#: library/includes/cpanel/theme-options/social-links.php:66
+#@ circle-free
+msgid "Vimeo URL"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:155
+#@ tgmpa
+msgid "Install Required Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:156
+#@ tgmpa
+msgid "Install Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:157
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:158
+#@ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:159
+#, php-format
+#@ circle-free
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:160
+#, php-format
+#@ circle-free
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:161
+#, php-format
+#@ circle-free
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:162
+#, php-format
+#@ circle-free
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:163
+#, php-format
+#@ circle-free
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:164
+#, php-format
+#@ circle-free
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:165
+#, php-format
+#@ circle-free
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:166
+#, php-format
+#@ circle-free
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:167
+#@ circle-free
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:168
+#@ circle-free
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:169
+#@ tgmpa
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:171
+#: class-tgm-plugin-activation.php:1840
+#@ tgmpa
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:173
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2052
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:174
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1085
+#@ tgmpa
+msgid "External Link"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1090
+#@ tgmpa
+msgid "Private Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1093
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1097
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1100
+#@ tgmpa
+msgid "Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1100
+#@ tgmpa
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1103
+#@ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1105
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1275
+#, php-format
+#@ tgmpa
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1291
+#@ tgmpa
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1292
+#@ tgmpa
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1293
+#@ tgmpa
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1294
+#@ tgmpa
+msgid "Status"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1312
+#@ tgmpa
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1313
+#@ tgmpa
+msgid "Activate"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: class-tgm-plugin-activation.php:1538
+#: class-tgm-plugin-activation.php:172
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:1823
+#@ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1824
+#, php-format
+#@ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1825
+#@ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1826
+#@ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1827
+#@ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1828
+#@ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1839
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1949
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1950
+#, php-format
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1950
+#: class-tgm-plugin-activation.php:1959
+#@ tgmpa
+msgid "Show Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1950
+#: class-tgm-plugin-activation.php:1959
+#@ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1951
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1952
+#, php-format
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1956
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1957
+#, php-format
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1958
+#, php-format
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1959
+#, php-format
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1960
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:1961
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: comments.php:95
+#@ circle-free
+msgid "Log out of this account"
+msgstr ""
+
+#: library/front.php:770
+#@ circle-free
+msgid "I recommend this page: "
+msgstr ""
+
+#: library/front.php:770
+#@ circle-free
+msgid ". You can read it on: "
+msgstr ""
+
+#: library/front.php:273
+#@ circle-free
+msgid "Please enter your name."
+msgstr ""
+
+#: library/front.php:274
+#: library/front.php:286
+#@ circle-free
+msgid "At least {0} characters required."
+msgstr ""
+
+#: library/front.php:277
+#@ circle-free
+msgid "Please enter your email."
+msgstr ""
+
+#: library/front.php:278
+#@ circle-free
+msgid "Please enter a valid email."
+msgstr ""
+
+#: library/front.php:281
+#@ circle-free
+msgid "Please enter your url."
+msgstr ""
+
+#: library/front.php:282
+#@ circle-free
+msgid "Please enter a valid url."
+msgstr ""
+
+#: library/front.php:285
+#@ circle-free
+msgid "Please enter a message."
+msgstr ""
+
+#: library/front.php:270
+#@ circle-free
+msgid "Sending..."
+msgstr ""
+
+#: library/includes/ajax.php:310
+#@ circle-free
+msgid "Contact Form:"
+msgstr ""
+
+#: library/includes/ajax.php:299
+#@ circle-free
+msgid "Name:"
+msgstr ""
+
+#: library/includes/ajax.php:300
+#@ circle-free
+msgid "Message:"
+msgstr ""
+
+#: library/includes/ajax.php:701
+#@ circle-free
+msgid "View by:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:170
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr ""
+
+#: library/front.php:380
+#@ circle-free
+msgid "Latest News"
+msgstr ""
+
+#: library/includes/upsell/themes-introduction.php:100
+#, php-format
+#@ circle-free
+msgid "Copyrights. &copy; %s by KOPASOFT"
+msgstr ""
+
+#: library/includes/upsell/upsell.php:7
+#@ circle-free
+msgid "Kopatheme - Premium WordPress Themes and Web Templates"
+msgstr ""
+
+#: library/includes/upsell/upsell.php:7
+#@ circle-free
+msgid "Kopatheme Premium Templates"
+msgstr ""
+
+#: library/includes/widgets.php:728
+#@ circle-free
+msgid "Account ID:"
+msgstr ""
+
+#: loop-single-1.php:74
+#: loop-single-2.php:75
+#@ circle-free
+msgid "&laquo;&nbsp;Previous Article"
+msgstr ""
+
+#: library/includes/ajax.php:316
+#@ circle-free
+msgid "Success! Your email has been sent."
+msgstr ""
+
+#: footer.php:66
+#: library/includes/cpanel/theme-options/general.php:155
+#, php-format
+#@ circle-free
+msgid "Copyright &copy; %1$s Kopasoft."
+msgstr ""
+

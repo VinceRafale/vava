@@ -1,0 +1,187 @@
+/**
+ * Front Page Stylesheet
+ * This is only loaded when using the front-page.php page template
+ *
+ * @since 0.1
+ */
+
+/**
+* Featured slider
+************************************************/
+#slider-container {
+	overflow: hidden;
+	width:950px;
+	float:left;
+	height:105px;
+	border:1px solid #cdcdcd;
+	margin: 0 0 0 0;
+	background: #fff;
+	}
+#slider {
+	overflow: hidden;
+	width: 950px;
+	height: 105px;
+	}
+	
+.slider-head {
+	width:950px;
+	height:105px;
+}
+.feature {
+	overflow: hidden;
+	width: 500px;
+	height: 105px;
+	line-height:18px;
+	padding: 10px 10px 0 10px;
+	color: #777;
+	background: #fff;
+	border: none !important;
+	}
+#slider-container a {
+	color: #ddd;
+	font-weight: bold;
+	background-color:#000;
+	padding:5px;
+	text-decoration:none;
+	}
+.feature img {
+	float: left;
+	max-width: 500px;
+	max-height: 105px;
+	width: 500px;
+	padding:2px;
+	height: 105px;
+	margin: 0 13px 0 0;
+	border: 1px solid #CCCCCC;
+}
+.feature-content p
+{
+	margin-bottom:-6px;
+	padding-right: 10px;
+}
+#slider .feature .entry-title {
+	font-size:16px;
+	}
+#slider .feature .entry-title a {
+	color: #444;
+	}
+.feature .byline {
+	color: #aaa;
+	margin-bottom: 15px;
+	}
+.more-link {
+	float: right;
+	text-indent: -9999px;
+	width: 100px;
+	height: 20px;
+	margin-top:-1px;
+	display: block;
+	background: url(images/more-link.gif) no-repeat 0 0;
+	}
+.more-link:hover {
+	background: url(images/more-link.gif) no-repeat 0 -20px;
+	}
+
+/* Slider controls */
+.slider-controls {
+	float: left;
+	width: 66px;
+	height: 20px;
+	overflow: hidden;
+	clear: both;
+	line-height: 15px;
+	margin: 0 0 0;
+	padding: 0 10px 0 470px;
+	background: #fff;
+	border-top: 1px solid #ddd;
+	}
+.slider-prev
+{
+	background: url("../images/banner_prv.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 32px;
+    margin-left: 19px;
+    margin-top: 250px;
+    position: absolute;
+    text-indent: -9999px;
+    width: 32px;
+    z-index: 1000;
+}
+.slider-controls .slider-prev:hover {
+	background: #fff url(../images/slider-prev.gif) no-repeat left -20px;
+	}
+.slider-controls .slider-pause {
+	text-indent: -9999px;
+	float: left;
+	width: 18px;
+	height: 20px;
+	background: url(../images/pause.gif) no-repeat center 0;
+	border: none !important;
+	}
+.slider-controls .slider-pause:hover
+{
+	background: #fff url(../images/pause.gif) no-repeat center -20px;
+}
+.slider-controls a.paused {
+	background: #fff url(../images/play.gif) no-repeat center 0px;
+}
+.slider-controls a.paused:hover
+{
+	background:#fff url(../images/play.gif) no-repeat center -20px
+}
+.slider-next {
+	text-indent: -9999px;
+	float: left;
+	width: 32px;
+	position:absolute;
+	height: 32px;
+	background: url(../images/banner_nxt.png) no-repeat right 0;
+	z-index:1000;
+	margin-top: 250px;
+	margin-left:480px;
+	}
+.slider-controls .slider-next:hover {
+	background: #fff url(../images/slider-next.gif) no-repeat right -20px;
+	}
+
+.medium {
+	width:500px;
+	height:105px;
+	float:left;
+}
+
+.feature-content {
+	width:430px;
+	height:105px;
+	float:right;
+	background-color:#5c7387;
+	padding:8px 0px 0px 20px;
+}
+/**
+* Featured excerpts
+************************************************/
+.content .entry-title, #content .entry-title {
+	margin-bottom: 3px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#444444;
+	font-weight: bold;
+	}
+.byline {
+	margin-bottom: 3px;
+	}
+
+.post {
+	border-bottom: 1px solid #ddd;
+	}
+
+.page-template-front-page .entry-meta {
+	display: none;
+	}
+.feature-content a
+{
+	float:right	
+}
+.feature-content p
+{
+	line-height:18px;
+}

@@ -1,0 +1,94 @@
+	/* Heading Size */
+
+h1,h2,h3,h4,h5,h6,hr,p,ul,ol,dl,pre,address,table,form {
+	margin:0 0 15px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	font-size: 1.4em;
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+h6 {
+	font-size: 1em;
+}
+
+
+strong, b {
+	font-weight:bold;
+}
+
+em, dfn, i {
+	font-style:italic;
+}
+
+ul {
+	padding: 0 0 0 15px;
+}
+
+ul.checklist li {
+	padding: 2px 0 2px 23px;
+	background: url('../../images/checklist.png') left 50% no-repeat;
+}
+
+ul.arrowlist li {
+	padding: 2px 0 2px 17px;
+	background: url('../../images/arrow.png') 2px 50% no-repeat;
+}
+
+	/* Helpers */
+
+.float-left {
+	float: left!important;
+}
+
+.float-right {
+	float: right!important;
+}
+
+.float-none {
+	float: none!important;
+}
+
+.clear {
+	clear: both;
+}
+
+.break {
+	height: 25px;
+	overflow: hidden;
+}
+
+.icon-content .break {
+	height: 10px;
+}
+
+.divider {
+	height: 1px;
+	border-top: #e2e2e2 solid 1px;
+	background: #fff;
+	overflow: hidden;
+	margin: 20px 0;
+}
+
+	/* Body Styling */
+
+body {
+	font-family: "droid-sans-1","droid-sans-2","droid-sans-1","droid-sans-2","Myriad Web Pro","Myriad Pro",Tahoma,Arial;
+	font-size: 0.86em;
+}

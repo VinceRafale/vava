@@ -1,0 +1,1565 @@
+/*  
+Theme Name: BusinessCanvas
+Theme URI: http://www.chimerathemes.com/2010/08/businesscanvas/
+Description: With the built it style editor its very easy to roll your own custom style.
+Version: 2.1
+Author: <a href="http://www.chimerathemes.com" target="_blank" title="Premium WordPress 3.0 Themes">ChimeraThemes.com</a>
+Author URL: http://www.chimerathemes.com
+*/
+
+@import url('includes/css/reset.css');
+@import url('includes/css/buttons.css');
+@import url('includes/css/content_boxes.css');
+@import url('includes/css/pricing_table.css');
+@import url('includes/css/tables.css');
+@import url('includes/css/tooltips.css');
+@import url('includes/css/typography.css');
+@import url('includes/css/tabs.css');
+@import url('includes/css/widgets.css');
+@import url('includes/css/comments.css');
+@import url('includes/css/gallery.css');
+
+	/* General Settings */
+
+#header .menu {   float: right;  margin: 32px 0 0;}
+
+#header ul {   float: left;    margin: 28px 0 0;    padding: 0;}
+body {
+	font-size: 0.8em;
+	font-family: Arial, Tahoma, Verdana;
+}
+
+.wrapper {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+
+	/* Menus */
+
+/* .menu li {
+	float: left;
+	position: relative;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+.menu li ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 27px;
+	z-index: 99999;
+	white-space: nowrap;
+}
+ */
+.sf-sub-indicator {
+	vertical-align: middle;
+	padding: 0px 5px;
+	background: url('images/dd_arrow.png') right 50% no-repeat;
+	display: none;
+}
+
+.menu li ul li {
+	padding: 0;
+	float: none;
+}
+
+.menu li ul li a {
+	display: block;
+}
+
+	/* Top Bar */
+
+#top_bar .top_inner {
+	padding: 10px 0;
+}
+
+#top_bar .menu {
+	float: right;
+}
+
+#top_bar .menu a {
+	padding: 2px 0;
+}
+
+#top_bar .menu li {
+	margin: 0 0 0 7px;
+}
+
+#top_bar .menu li ul li {
+	margin-left: 0;
+}
+
+	/* Header */
+
+#header .logo {
+	float: left;
+	position: absolute;
+	top: 0;
+}
+
+#header .wrapper .menu ul {
+	float: right;
+}
+
+#header .wrapper .menu ul li ul li {
+	margin: 0;
+}
+
+.menu ul li ul li.first {
+	border-top: 0;
+}
+
+.menu ul li ul li ul {
+	left: 100%;
+	top: 5px;
+}
+
+#header .wrapper .menu ul li ul li a:hover {
+	border: 0;
+}
+
+#header .wrapper .menu ul li ul li ul {
+	left: 100%;
+}
+
+body .wrapper .menu ul li ul li a {
+	margin: 0!important;
+	border: 0!important;
+	background: none!important;
+}
+
+	/* Featured Area */
+
+#featured {
+	overflow: hidden;
+	font-size: 15px;
+}
+
+.feat_alt {
+	overflow: visible!important;
+}
+
+#featured h1, #featured h2, #featured h3, #featured h4, #featured h5, #featured h6 {
+	line-height: 1.2em;
+}
+
+#featured .feat_text {
+	float: left;
+	width: 440px;
+}
+
+	/* Featured slider */
+
+#featured #slider {
+	min-height: 340px;
+}
+
+#featured .posts_slider {
+	min-height: 200px!important;
+}
+
+#featured #slider .image-slide {
+	float: right;
+	width: 520px;
+}
+
+#featured #slider .feat-text {
+	float: left;
+	width: 435px;
+	font-size: 15px;
+	line-height: 1.5em;
+	min-height: 340px;
+}
+
+#featured #slider ul {
+	margin: 0;
+	padding: 0;
+}
+
+#featured #slider ul li {
+	width: 980px;
+	display: none;
+}
+
+	/* Slider arrows */
+
+.sliderbutton {
+	position: absolute;
+	left: -60px;
+	top: 50%;
+	margin-top: -26px;
+	display: none;
+}
+
+.sliderbutton a {
+	background: url('images/arrows.png') left top;
+	height: 49px;
+	width: 50px;
+	text-indent: -9999em;
+	display: block;
+}
+
+.sliderbutton a:hover {
+	background-position: left -98px;
+}
+
+.slider-right {
+	left: auto;
+	right: -60px;
+}
+
+.slider-right a {
+	background-position: right -49px;
+}
+
+.slider-right a:hover {
+	background-position: left -147px;
+}
+
+	/* Featured Alternate */
+
+#featured .alternate h3 {
+	margin: 0 0 20px;
+}
+
+#featured .alternate h4 {
+	line-height: 1.3em;
+	margin: 0 0 30px;
+}
+
+#featured .alternate .feat_text .button_big {
+	margin-left: 10px;
+}
+
+#featured .alternate #screenshot {
+	float: right;
+	position: relative;
+	z-index: 99;
+	max-width: 518px;
+	display: block;
+	max-height: 393px;
+}
+
+	/* Single Page */
+
+.single #featured h1 {
+	margin: 0;
+	overflow: hidden;
+	width:800px;
+	height: 43px;
+}
+
+.post .entry {
+	line-height: 1.6em;
+}
+
+	/* Title Teasers */
+
+#featured #social, #featured #cust_txt {
+	margin-top:-2px;
+	top:50% !important;
+}
+
+#featured #social {
+	position:absolute;
+	right: 0;
+}
+
+#featured #social a, .social_ico a {
+	display: block;
+	float: left;
+	height: 32px;
+	width: 32px;
+	margin: 0 2px;
+	text-indent: -9999em;
+}
+
+#featured #cust_txt {
+	font-style:italic;
+	line-height:1.4em;
+	list-style:none outside none;
+	position:absolute;
+	right:0;
+	text-align: right;
+	font-size: 1.3em;
+	top: 9px;
+}
+
+#featured #cust_txt a.but_small {
+	float:right !important;
+	margin-top:-9px;
+	margin-top:-8px;
+	position:relative;
+	top:50%;
+	font-style: normal;
+}
+
+body.single .w_title_descr #cust_txt a.but_small {
+	margin-top: 3px;
+}
+
+.title_descr {
+	font-weight: normal!important;
+}
+
+body.single .w_title_descr #cust_txt {
+	top: 19px!important;
+}
+
+.sidebar_left .main_sidebar {
+	float: left;
+}
+
+.sidebar_left .main_wrapper {
+	float: right;
+}
+
+.main_wrapper {
+	float: left;
+	width: 670px;
+}
+
+#main_content {
+	min-height: 370px;
+}
+
+.main_sidebar {
+	float: right;
+	width: 280px;
+}
+
+.main_sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+
+	/* Breadcrumb */
+
+#breadcrumb {
+	padding: 10px 0;
+	position: relative;
+}
+
+#breadcrumb .breadcrumb {
+	margin: 0 auto;
+	width: 980px;
+}
+
+#breadcrumb .pagination {
+	left: 50%;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+}
+
+.home #breadcrumb {
+	padding: 10px 0 23px !important;
+}
+
+#breadcrumb .pagination a {
+	text-indent: -9999em;
+	display: block;
+	float: left;
+	width: 12px;
+	margin: 0 3px;
+	height: 12px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background: #fff;
+	border: transparent solid 1px;
+}
+
+	/* Post Small */
+
+.post_small {
+	border: 2px solid transparent;
+	float: left;
+	margin: 15px 30px 15px 0;
+	padding: 3px;
+	width: 296px;
+}
+
+.post_last {
+	margin-right: 0;
+}
+
+.post_small h2 {
+	line-height: 1.4em;
+	padding: 5px 8px;
+	border-bottom: transparent solid 1px;
+}
+
+.post_small .text {
+	line-height: 1.5em;
+}
+
+.post_small .text .post-img {
+	float: left;
+	padding: 0 10px 5px 7px;
+}
+
+.post_small .text .post-img a {
+	display: block;
+	border: transparent solid 2px;
+}
+
+.post_small .text .post-img a img {
+	border: #fff solid 1px;
+}
+
+.post_small .post_footer {
+	margin: 10px 0 0;
+}
+
+.post_small .post_footer a {
+	display: block;
+	padding: 3px 5px;
+	float: right;
+}
+
+	/* Post Big */
+
+.post-b {
+	margin: 0 0 40px;
+	border: transparent solid 1px;
+}
+
+.post-b h2 {
+	line-height: 1.4em;
+	margin-bottom: 6px;
+}
+
+.post-b .det {
+	padding-bottom: 6px;
+}
+
+.post-b .post-img {
+	float: left;
+}
+
+.post-b .post-img a {
+	margin-right: 15px;
+	display: block;
+}
+
+.post-b .post-content {
+	line-height: 1.6em;
+}
+
+.post-b .post-footer, .post-b .date span {
+	font-weight: bold;
+}
+
+	/* Sidebar Widgets */
+
+#main_content .main_sidebar .widget {
+	margin:0 0 30px;
+	position:relative;
+}
+
+#main_content .main_sidebar .widget h3.widgettitle {
+	margin: 0;
+}
+
+#main_content .main_sidebar .widget .content li a {
+	display: block;
+	line-height:1.3em;
+	padding: 5px 5px 5px 20px;
+	background-image: url('images/menu-arrow.png');
+	background-repeat: no-repeat;
+	background-position: 7px 50%;
+}
+
+	/* Post Images */
+
+img.alignright, img.alignleft {
+	padding: 5px;
+	background: #f7f7f7;
+	border: #ddd solid 1px;
+}
+
+img.alignleft, div.alignleft img {
+	float: left;
+	margin-right: 12px;
+}
+
+img.alignright, div.alignright img {
+	float: right;
+	margin-left: 12px;
+}
+
+p.description {
+	margin-top: -10px;
+	color: #666;
+	font-size: 0.96em;
+	margin-bottom: 20px;
+	line-height: 1.6em;
+}
+
+	/* Social Share */
+
+#main_content .social_share {
+	margin: -15px 0 30px;
+}
+
+#main_content .social_share div.clear {
+	float: none;
+}
+
+#main_content .social_share span {
+	font-weight: bold;
+	line-height: 32px;
+	height: 32px;
+	float: left;
+	display: block;
+	margin: 0 5px;
+}
+
+#main_content .social_share div {
+	float: left;
+	margin: 0 7px;
+}
+
+#main_content .social_share a {
+	display: block;
+	height: 32px;
+	width: 32px;
+}
+
+.social_ico a.rss {
+	background: url('images/icons/rss_32.png') no-repeat;
+}
+
+.social_ico a.flickr {
+	background: url('images/icons/flickr_32.png') no-repeat;
+}
+
+.social_share .stumbleupon_icon a {
+	background: url('images/icons/stumbleupon_32.png') no-repeat;
+}
+
+.social_ico a.twitter, #main_content .social_share .twitter_icon a {
+	background: url('images/icons/twitter_32.png') no-repeat;
+}
+
+#main_content .social_share .reddit_icon a {
+	background: url('images/icons/reddit_32.png') no-repeat;
+}
+
+#main_content .social_share .digg_icon a {
+	background: url('images/icons/digg_32.png') no-repeat;
+}
+
+#main_content .social_share .delicious_icon a {
+	background: url('images/icons/delicious_32.png') no-repeat;
+}
+
+.social_ico a.facebook, #main_content .social_share .facebook_icon a {
+	background: url('images/icons/facebook_32.png') no-repeat;
+}
+
+.social_ico a.linkedin, #main_content .social_share .linkedin_icon a {
+	background: url('images/icons/linkedin_32.png') no-repeat;
+}
+
+#featured #social a.googleplus, #main_content .social_share .googleplus_icon a {
+	background: url('images/icons/gplus-32.png') no-repeat;
+}
+
+
+.thanks {
+	color: #26910e;
+	text-align: center;
+	font-weight: bold;
+}
+
+#footer {
+	position: relative;
+}
+
+#footer .thanks {
+	color: #fcfcfc;
+	text-align: left;
+}
+
+#footer .thanks strong {
+	color: #fff;
+	display: block;
+	padding: 0 0 4px;
+}
+
+#footer ul {
+	margin: 0;
+	padding: 0;
+}
+
+#footer ul li {
+	padding: 0 8px 0 0;
+}
+
+#footer .copy {
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	font-size: 0.9em;
+}
+
+#footer_social_icons {
+	float: right;
+	margin-top: 10px;
+}
+
+.inputError {
+	background-color: #fff3f1!important;
+	color: #333!important;
+	border-color: #7e1010 !important;
+}
+
+	/* Page navigation */
+
+.wp-pagenavi {
+	padding: 20px 0 0 0;
+	margin: 25px 0 0 0;
+	border-top: #ddd solid 1px;
+}
+
+.wp-pagenavi span.pages {
+	display: none;
+}
+
+.wp-pagenavi a, .wp-pagenavi span.current {
+	float: left;
+	margin: 0 2px;
+	display: block;
+}
+
+.wp-pagenavi a {
+	margin: 0 7px;
+}
+
+.wp-pagenavi span.current {
+	padding: 0!important;
+	display: block;
+	text-align: center;
+}
+
+.wp-pagenavi span.current {
+	padding: 10px;
+}
+
+	/* Special Title */
+
+h1.special_title {
+	text-align:center;
+	font-weight: normal;
+	color: #444;
+	font-size: 2.8em;
+	letter-spacing: -1px;
+	margin-top: 10px;
+}
+
+.special_title_descr {
+	text-align:center;
+	font-weight: bold;
+	color: #929497;
+	display: block;
+	line-height: 1.4em;
+}
+
+.special_title_descr strong {
+	color: #444;
+}
+
+.highlight1, .highlight2  {
+	background-color:#ececec;
+	color:#111;
+	padding:2px 6px 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.highlight2 {
+	background-color:#111;
+	color:#eee;
+}
+
+	/* Shortcode Columns */
+
+.one_half {
+	width:48%;
+}
+
+.one_third {
+	width:30.66%;
+}
+
+.two_third {
+	width:65.33%;
+}
+
+.one_fourth {
+	width:22%;
+}
+
+.three_fourth {
+	width:65%;
+}
+
+.one_fifth {
+	width:16.8%;
+}
+
+.two_fifth {
+	width:37.6%;
+}
+
+.three_fifth {
+	width:58.4%;
+}
+
+.four_fifth {
+	width:67.2%;
+}
+
+.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth {
+	float:left;
+	margin-right:4%;
+	position:relative;
+}
+
+.last {
+	clear:right;
+	float: right;
+	margin-right: 0!important;
+}
+
+.lat, .lat a {
+	border: 0!important;
+}
+
+
+/* -- CSS added to make responsive theme -- */
+
+/* Media queries started */
+
+@media only screen and (min-width: 481px) and (max-width: 1024px){
+	iframe, object, embed{
+		width: 100%;
+		height: auto;
+	}
+	#featured { background-size: cover;}
+	#main_content .wrapper img {max-width: 100%;}
+	
+	  .pricing .price_col {width:19% !important;}
+    .pricing .price_info { width:19% !important;}
+    .pricing .price_dev_1 { width:23% !important;}
+    .pricing .price_col_last { width:20% !important;} 
+    
+/* added By Prashant 15.7.2013 */
+    #main_content .post_first {
+    margin: 0px 30px 25px 3px !important;}
+    
+    #featured .alternate #screenshot {
+    width: 49% !important;
+    }
+    #featured .alternate .feat_text {
+    width: 51% !important;
+}
+
+
+/* Added By Prashant 07-Aug-13 */
+#main_content .three_column .one_third .img_cont {
+    max-width: 306px;
+    width:100% !important;
+}
+
+
+#main_content .three_column .one_third a.img {
+    max-width: 306px !important;
+    width:99% !important
+}
+
+#main_content .gallery_item {
+ 
+    float: none !important;
+   
+}
+/* Begin Added By Prashant 16-Aug-13 For #featured */
+    #featured .alternate #screenshot {
+        margin-right: 0px !important;
+    width: 49% !important;
+    }
+    #featured .alternate .feat_text {
+    width: 49% !important;
+}
+    
+    /* Begin Added By Prashant 24-Aug-13 for  Slider*/
+.sidebar_left .main_sidebar {
+  float:left !important;
+  max-width: 280px !important;
+    width:25% !important
+}
+#main_content .main_wrapper {
+    max-width: 700px !important;
+    width: 71% !important;
+}
+
+.main_sidebar {
+   
+    max-width: 280px;
+    width: 25%;
+}
+
+/* End Added By Prashant 24-Aug-13 for  Slider*/
+
+/* Begin Added By Prashant 24-Aug-13 for  Four column gallery*/
+#main_content .four_column .last, #main_content .three_column .last {
+ 
+    float: left !important;
+}
+
+/* End Added By Prashant 24-Aug-13 for  Four column gallery*/
+}
+/* added By Prashant 13.7.2013 */
+@media screen and (max-width: 980px){
+  iframe, object, embed{
+		width: 100%;
+		height: auto;
+		
+  }
+  .pricing .price_col {max-width:198px; width:20% !important;}
+    .pricing .price_info {max-width:170x; width:17% !important;}
+    .pricing .price_dev_1 {max-width: 220px; width:23% !important;}
+    .pricing .price_col_last { max-width:194px; width:20% !important;} 
+    /* added By Prashant 22.7.2013 */
+    .but_c {margin: 0px 32px 0px 2px !important;}
+a.button_big {margin: 0px 52px 0px 0px !important;}
+
+/* Added By Prashant */
+.menu li {
+    float: left;
+    position: relative;
+    margin-top: 28px;
+}
+
+/* Begin Added By Prashant 09-Aug-13 For Pricing Table*/
+.pricing, .pricing_footer {
+      margin-right: 16px !important;
+}
+/* End Added By Prashant 09-Aug-13 For Pricing Table*/
+
+/* Begin Added By Prashant 16-Aug-13 For #featured */
+    #featured .alternate #screenshot {
+        margin-right: 0px !important;
+    width: 49% !important;
+    }
+    #featured .alternate .feat_text {
+    width: 49% !important;
+}
+
+/* #End Prashant 16-Aug-13 For #featured*/
+
+/* #Begin Prashant 23-Aug-13 For Gallary*/
+#main_content .portfolio_item {
+   
+    margin: 0px 10px 45px 0px !important;
+   
+}
+
+
+#main_content .item_alt {
+  
+    margin: 0px 20px 25px 0px !important;
+    
+}
+/* end Prashant 23-Aug-13 For Gallary*/
+
+
+}
+
+/* added By Prashant 13.7.2013 */
+
+@media screen and (max-width: 800px){
+  iframe, object, embed{
+		width: 100%;
+		height: auto;
+		
+  }
+  .pricing .price_col {max-width:155px !important; width:19% !important;}
+    .pricing .price_info {max-width:120x !important; width:15% !important;}
+    .pricing .price_dev_1 {max-width: 220px !important; width:28% !important;}
+    .pricing .price_col_last { max-width:150px !important; width:19% !important;} 
+   /* Begin Added By Prashant 24-Aug-13 for  Left sidebar page*/
+.one_fifth {
+    width: 99% !important;
+}
+
+
+/* End Added By Prashant 24-Aug-13 for  Left sidebar page*/
+
+}
+/* added By Prashant 13.7.2013 */
+@media screen and (max-width: 768px){
+  iframe, object, embed{
+		width: 100%;
+		height: auto;
+		
+  }
+
+    .pricing .price_info {max-width:120x !important; width:14% !important;}
+    .pricing .price_dev_1 {max-width: 220px !important; width:29% !important;}
+
+
+
+
+
+}
+
+/* Begin Added By Prashant 09-Aug-13 For Images gallery*/
+
+/* End Added By Prashant 09-Aug-13 For Images gallery*/
+
+/* added By Prashant 13.7.2013 */
+
+@media screen and (max-width: 660px) {
+	iframe, object, embed{
+		width: 100%;
+		height: auto;
+	}
+	#main_content { width: 99%;}
+	#featured { background-size: cover;}
+	#main_content .wrapper img {max-width: 100%;}
+	#featured .alternate .feat_text h3 { font-size: 1.4em; }
+	#featured .alternate .feat_text h4 { font-size: 1.2em; }
+	#header .wrapper {height: auto!important;}
+	#header {height: auto!important;}
+     .one_half { width: 99%; }
+     .last { clear: left; }
+     .one_third { width: 97%; }
+     #header ul.logo img { margin-left: 4px;}
+    #featured .alternate .feat_text { margin-left: 9px; }    
+    //#main_content { padding-left: 9px; } 
+    //#main_content .post_small { margin-left: -10px; }
+     #main_content .post_small { margin: 0px 0px 0px 0px!important; }
+     body.sidebar_left #main_content .main_wrapper { float: left; width: 71%; } 
+      #main_content .entry { margin-left: 7px; margin-bottom: 10px; }     
+     body.single #featured h1 {  font-size: 1.2em;}
+     #main_content .main_sidebar {margin-left: 4px;}     
+     #slider ul { max-width:980px; width:100%!important; height:200px!important; }
+     #slider li { max-width:980px; width:100%!important; height:200px!important; min-height:200px;}
+     #slider .feat-text { margin-right:0px; font-size:0.8em; margin-left:4px;}
+     #slider a.image-overlay {height:220px;}
+     #slider .image-slide img { max-width:100%; }
+     .one_fourth { float:none; width:90%; }
+     .one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth {margin-bottom:4px; }
+     .one_fifth { float:none; width:90%; }
+     #header ul li ul { margin-left:-60px; }
+     
+      /* Pricing table */
+     .pricing, .pricing_footer { background: none; }
+     .pricing .price_col_first { width: 165px; }
+     .pricing .price_col { width: 170px; margin-left: 150px;}
+     .pricing .price_info {margin-left:0px!important;}
+     .price_col_first {/* float: right!important; */margin-top: -453px;} 
+     .pricing .price_info {width:160px;}
+     .pricing .price_info li {padding-right: 69px!important; border-right: 1px solid #bbb;margin-left: 4px;padding-left: 10px!important;}
+     .pricing .price_col li { margin-left: 5px;background-position:36px;border-right: 1px solid #bbb; border-left: 1px solid #bbb;} 
+     .pricing .price_col_first li { padding-left: 71px;} 
+     .pricing .price_col li.price-title {border: 1px solid #bbb;border-top-right-radius:4px;border-top-left-radius:4px;} 
+     .pricing .price_col_first li.price {border-left: 1px solid #bbb;border-bottom:1px solid #bbb; }
+     .pricing .price_col_first li.center { border-left: 1px solid #bbb;}
+     .pricing .price_dev_1 {margin-top: 12px;margin-bottom: 12px;margin-left: 154px;}
+     .pricing .price_col_last { margin-left: 154px; }
+    
+     .pricing .price_col li.price {border-right: 1px solid #bbb; border-left: 1px solid #bbb;border-bottom: 1px solid #bbb;}
+     .pricing .price_dev_1 ul {background: none; }
+     .pricing .price_col .price_col_footer {background: none; }
+     .pricing .price_col_first {margin-bottom: 24px;}
+     .pricing .price_col li {padding-left: 64px;} 
+     .pricing li.buttons {border-bottom: 1px solid #bbb;border-bottom-right-radius:4px;border-bottom-left-radius:4px; }
+     //.but_c { background: none; } 
+   //  .but_small i { background: none; }
+     // a.but_alt { background: none; background-color: #6B94CB;border-top-left-radius:4px;border-bottom-left-radius:4px;}
+     // a.but_alt i { background: none;background-color: #6B94CB;border-top-right-radius:4px;border-bottom-right-radius:4px; }
+    // .small_blue {background-color: #4DBBEC;border-top-left-radius:4px;border-bottom-left-radius:4px; } //.small_blue i {background-color: #4DBBEC;border-top-right-radius:4px;border-bottom-right-radius:4px;}
+    //.small_green {background-color: #7CC050;border-top-left-radius:4px;border-bottom-left-radius:4px; } .small_green i {background-color: #7CC050;border-top-right-radius:4px;border-bottom-right-radius:4px; }
+    //.small_orange  {background-color: #F38759;border-top-left-radius:4px;border-bottom-left-radius:4px;}  //.small_orange i  {background-color: #F38759;border-top-right-radius:4px;border-bottom-right-radius:4px;}
+      h1.special_title { font-size: 1.9em; }     
+     /* End : Pricing table */
+#main_content .action_blue{float:left!important;}
+
+/* BEGIN P1 Added By Prashant 20-jul-2013 */
+.hastable tr td, .hastable thead th {
+       padding: 5px !important;
+
+}
+
+#featured .alternate .feat_text {
+    margin-top: -6px !important;
+   }
+
+   #featured a.button_big {
+  
+    padding-left: 15px !important;
+}
+
+/* END P2 */
+
+
+}
+
+@media screen and (max-width: 660px) {
+	iframe, object, embed{
+		width: 100%;
+		height: auto;
+	}
+	
+	/* .pricing .price_col { max-width: 222px !important; width:63% !important; margin-left: 115px !important; }
+	  .pricing .price_info { max-width: 190px !important; width :50% !important; margin-left: 0px !important;  }
+	  .pricing .price_dev_1 { max-width: 222px !important; width : 63% !important;  margin-left: 115px !important; }
+	  .pricing .price_col_last {max-width: 222px !important; width :63% !important;  margin-left: 115px !important; }
+ .pricing li.buttons a { margin: -0px 13px 0px -60px !important}
+.pricing .price_info li { padding-right: 28px !important;}
+.pricing li.buttons a {margin: 0px 9px 0px -63px !important;}
+*/
+	/* Begin Added By Prashant 23-Aug-13 for Pricing table */
+	.pricing .price_col { max-width: 222px !important; width:63% !important; margin-left: 115px !important; }
+	  .pricing .price_info { max-width: 140px !important; width :39% !important; margin-left: 0px !important;  }
+	  .pricing .price_dev_1 { max-width: 222px !important; width : 63% !important;  margin-left: 115px !important; }
+	  .pricing .price_col_last {max-width: 222px !important; width :63% !important;  margin-left: 115px !important; }
+ .pricing li.buttons a { margin: -0px 13px 0px -60px !important}
+.pricing .price_info li { padding-right: 28px !important;}
+.pricing li.buttons a {margin: 0px 9px 0px -63px !important;}
+
+ .pricing .price_info {
+    
+    margin-bottom: 43px !important;
+}
+
+/* End Added By Prashant 23-Aug-13 for Pricing table */
+/* Begin Added By Prashant 23-Aug-13 for menu */
+#header .wrapper .menu ul li ul li ul {
+    left: 65% !important;
+}
+
+#header ul li ul {
+    margin-left: 0px !important;
+}
+/* End Added By Prashant 23-Aug-13 for menu */
+
+/*.pricing .price_col_first {
+   
+    margin-top: 10px !important;
+   
+}*/
+/* Begin Added By Prashant 24-Aug-13 for  Slider-search widget*/
+#main_content .main_sidebar .widget form#searchform input {
+   
+    width: 87% !important;
+}
+/* End Added By Prashant 24-Aug-13 for  Slider-search widget*/
+/* Begin Added By Prashant 24-Aug-13 for  price table*/
+.pricing .price_col {
+    float: none !important;
+   
+}
+.pricing .price_info {
+    max-width: 120px !important;
+    width: 38% !important;
+  
+}
+/* End Added By Prashant 24-Aug-13 for  price table*/
+/* Begin Added By Prashant 24-Aug-13 for  sidebar*/
+.sidebar_left .main_sidebar {
+    
+    max-width: 280px !important;
+    width: 100% !important;
+}
+
+.main_sidebar {
+    
+    max-width: 280px !important;
+    width: 100% !important;
+}
+
+}
+
+@media handheld, only screen and (max-device-width: 480px) {
+	iframe, object, embed{
+		width: 100%;
+		height: auto;
+	}
+	#main_content { width: 97%;}
+	#featured { background-size: cover;}
+	#main_content .wrapper img {max-width: 100%;}
+	#footer .wrapper .widget { width: 74% }
+	#header { background-size: 100% 100%; }
+	#featured .alternate .feat_text h3 { font-size: 1.4em; }
+	#featured .alternate .feat_text h4 { font-size: 1.2em; }
+	#header .wrapper {height: auto!important;}
+	#header {height: auto!important;}
+	.one_half { width: 99%; }
+        .last { clear: left; }
+        .one_third { width: 97%; }
+        #header ul.logo img { margin-left: 4px;}
+     #featured .alternate .feat_text { margin-left: 9px; } 
+     //#main_content { padding-left: 9px; }    
+     //#main_content .post_small { margin-left: -10px; }
+     #main_content .post_small { margin: 0px 0px 0px 0px!important; }
+     body.sidebar_left #main_content .main_wrapper { float: left; width: 71%; } 
+      #main_content .entry { margin-left: 7px; margin-bottom: 10px; }
+     body.single #featured h1 {  font-size: 1.2em;}
+     #main_content .main_sidebar {margin-left: 4px;}
+      #slider ul { max-width:980px; width:100%!important; height:200px!important; }
+     #slider li { max-width:980px; width:100%!important; height:200px!important; min-height:200px;}
+     #slider .feat-text { margin-right:0px; font-size:0.8em;}
+     #slider a.image-overlay {height:220px;}
+     #slider .image-slide img { max-width:100%; }
+     .one_fourth { float:none; width:90%; }
+     .one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth {margin-bottom:4px; }
+     .one_fifth { float:none; width:90%; }
+     #header ul li ul { margin-left:-60px; } 
+     
+ 
+   /* .hastable table {margin: 0px -32px 15px !important;} */
+    .hastable table {word-break: break-all !important;}
+
+
+
+
+    
+}
+
+/* Media = Mobile - All Others - orientation:portrait */
+/* Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora */
+@media handheld, only screen and (max-device-width: 480px) and (orientation:portrait) {
+	iframe, object, embed{
+		width: 100%;
+		height: auto;
+	}
+	#main_content { width: 99%;}
+	#featured { background-size:}
+	#main_content .wrapper img {max-width: 100%;}
+	#footer .wrapper .widget { width: 74% }
+	#header { background-size: 100% 100%; }
+	#featured .alternate .feat_text h3 { font-size: 1.4em; }
+	#featured .alternate .feat_text h4 { font-size: 1.2em; }
+	#header .wrapper {height: auto!important;}
+	#header {height: auto!important;}
+        .one_half { width: 99%; }
+	.last { clear: left; }
+    .one_third { width: 97%; }
+    #header ul.logo img { margin-left: 4px;}
+    #featured .alternate .feat_text { margin-left: 9px; }   
+    //#main_content { padding-left: 9px; }
+    //#main_content .post_small { margin-left: -10px; }
+     #main_content .post_small { margin: 0px 0px 0px 0px!important; }
+     body.sidebar_left #main_content .main_wrapper { float: left; width: 71%; }
+     #main_content .entry { margin-left: 7px; margin-bottom: 10px; }
+     body.single #featured h1 {  font-size: 1.2em;}
+     #main_content .main_sidebar {margin-left: 4px;}
+     #slider ul { max-width:980px; width:100%!important; height:200px!important; }
+     #slider li { max-width:980px; width:100%!important; height:200px!important; min-height:200px;}
+     #slider .feat-text { margin-right:0px; font-size:0.8em;}
+     #slider a.image-overlay {height:220px;}
+     #slider .image-slide img { max-width:100%; }
+     .one_fourth { float:none; width:90%; }
+     .one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth {margin-bottom:4px; }
+     .one_fifth { float:none; width:90%; }
+     
+      
+     #header ul li ul { 
+     margin-left:-60px; }
+  
+      
+        .hastable table {
+    word-break: break-all !important;
+}
+
+}
+
+@media handheld, only screen and (max-device-width: 767px) and (orientation:landscape) {
+	iframe, object, embed{
+		width: 100%;
+		height: auto;
+	}
+	#featured { background-size: cover;}
+	#main_content .wrapper img {max-width: 100%;}
+	//#main_content { padding-left: 9px; }
+       
+    //  #main_content{max-width:98%;}
+    
+    
+
+}
+
+
+  @media screen and (max-width: 480px){
+  iframe, object, embed{
+		width: 100%;
+		height: auto;
+		
+  }
+        .hastable table {word-break: break-all !important;}
+        
+        /* Begin Added By Prashant 23-Aug-13 for Pricing table */
+.pricing .price_col_first {
+    margin-top: -460px !important;
+}
+
+  .pricing .price_info {
+   
+    max-width: 120px !important;
+}
+
+.pricing .price_col_first {
+    margin-top: -452px !important;
+}
+
+/* End Added By Prashant 23-Aug-13 for  Pricing table */
+ 
+}
+@media handheld, only screen and (max-device-width: 320px) {
+	iframe, object, embed{
+		width: 100%;
+		height: auto;
+	}
+	#main_content { width: 99%;}
+	//#main_content .gallery_item {width:99%}  //added by arvind
+	#featured { background-size: cover;}
+	#main_content .wrapper img {max-width: 100%;}
+	#footer .wrapper .widget { width: 74% }
+	#header { background-size: 100% 100%; }
+	#featured .alternate .feat_text h3 { font-size: 1.4em; }
+	#featured .alternate .feat_text h4 { font-size: 1.2em; }
+	
+	#header .wrapper {height: auto!important;}
+	#header {height: auto!important;}
+	.one_half { width: 99%; }
+        .last { clear: left; }
+        .one_third { width: 97%; }
+        #header ul.logo img { margin-left: 4px;}
+     #featured .alternate .feat_text { margin-left: 9px; } 
+     //#main_content { padding-left: 9px; }    
+     //#main_content .post_small { margin-left: -10px; }
+     #main_content .post_small { margin: 0px 0px 0px 0px!important; }
+     body.sidebar_left #main_content .main_wrapper { float: left; width: 71%; } 
+      #main_content .entry { margin-left: 7px; margin-bottom: 10px; }
+     
+     body.single #featured h1 {  font-size: 1.2em;}
+     #main_content .main_sidebar {margin-left: 4px;}
+     .one_fourth { float:none; width:90%;  }
+     .one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth {margin-bottom:4px; }
+     .one_fifth { float:none; width:90%; }
+   /* BEGIN P1 Added By Prashant 20-jul-2013 */  
+
+
+
+.hastable table {
+    word-break: break-all !important;
+}
+
+
+ #main_content .mycontent {
+    
+    
+    width:100% !important
+}
+
+ /* Added By Prashant 07-Aug-13 */
+
+
+}
+
+@media screen and (max-width: 360px){
+  iframe, object, embed{
+		width: 100%;
+		height: auto;
+		
+  }
+ .pricing .price_col { max-width: 222px !important; width:63% !important; margin-left: 115px !important; }
+	  .pricing .price_info { max-width: 140px !important; width :37% !important; margin-left: 0px !important;  }
+	  .pricing .price_dev_1 { max-width: 222px !important; width : 63% !important;  margin-left: 115px !important; }
+	  .pricing .price_col_last {max-width: 222px !important; width :63% !important;  margin-left: 115px !important; }
+ .pricing li.buttons a { margin: -0px 13px 0px -60px !important}
+.pricing .price_info li { padding-right: 28px !important;}
+.pricing li.buttons a {margin: 0px 9px 0px -63px !important;}
+/* BEGIN P1 Added By Prashant 20-jul-2013 */
+#featured .alternate .feat_text {
+    margin-top: -24px !important;
+}
+
+#main_content .post_small { max-width: 304px !important; width:97% !important;}
+
+#contact_form textarea { max-width:300px !important; width:70% !important;}
+
+.hastable table {
+    word-break: break-all !important;
+}
+table textarea { max-width:300px !important; width: 100% !important; }
+ body.single .w_title_descr #cust_txt {top: 7px !important;}
+ #featured #cust_txt {top: 7px !important;}
+
+ .two_third {
+    width: 92.35% !important;
+}
+/* Added By Prashant 07-Aug-13 */
+#main_content .three_column .one_third .img_cont {
+    max-width: 306px;
+    width:100% !important;
+}
+#main_content .three_column .one_third a.img {
+    max-width: 306px !important;
+    width:99% !important
+}
+
+#main_content .gallery_item {
+ 
+    float: none !important;
+   
+}
+ /* BEGIN  Added By Prashant 15-Aug-2013 for image*/  
+#featured .alternate #screenshot {
+    margin-top: -303px !important;
+}
+
+ /* END By Prashant 15-Aug-2013 for image*/  
+ /* BEGIN  Added By Prashant 15-Aug-2013 for Menu*/  
+ #header .wrapper .menu ul li a {
+    padding: 11px 63px !important;
+   
+}
+#header ul li ul {
+    margin-left: 0px !important;
+}
+
+#header .wrapper .menu ul li ul li ul {
+    left: 57% !important;
+}
+/* End Added By Prashant 15-Aug-13 for Menu */
+ /* Begin Added By Prashant 23-Aug-2013 for Pricing table*/  
+ .pricing .price_info {
+    
+    margin-bottom: 43px !important;
+}
+.pricing .price_col_first {
+    margin-top: -452px !important;
+}
+.pricing .price_col_first {
+
+    margin-right: 0px !important;
+}
+
+/* End Added By Prashant 23-Aug-13 for Pricing table */
+/* END P1 */
+/*
+@media screen and (max-width: 320px){
+  iframe, object, embed{
+		width: 100%;
+		height: auto;
+		
+  }
+ .pricing .price_col { max-width: 222px !important; width:63% !important; margin-left: 115px !important; }
+	  .pricing .price_info { max-width: 140px !important; width :39% !important; margin-left: 0px !important;  }
+	  .pricing .price_dev_1 { max-width: 222px !important; width : 63% !important;  margin-left: 115px !important; }
+	  .pricing .price_col_last {max-width: 222px !important; width :63% !important;  margin-left: 115px !important; }
+ .pricing li.buttons a { margin: -0px 13px 0px -60px}
+.pricing .price_info li { padding-right: 28px !important;}
+.pricing li.buttons a {margin: 0px 9px 0px -63px !important;}
+
+ */ 
+}
+ /* BEGIN P1 Added By Prashant 20-jul-2013 Contact form*/  
+@media screen and (max-width: 320px){
+  iframe, object, embed{
+		width: 100%;
+		height: auto;
+		
+  }
+#contact_form textarea, #commentform textarea, #contact-form-widget textarea { max-width:300px !important; width: 80% !important; margin: 0px -11px 15px !important; }
+#contact_form input, #commentform input, #contact-form-widget input { width: 60% !important;  }
+ table textarea { max-width:300px !important; width: 100% !important; }
+ /* BEGIN  Added By Prashant 22-jul-2013 Contact form*/  
+ body.single .w_title_descr #cust_txt {top: 7px !important;}
+ 
+ /* BEGIN  Added By Prashant 25-jul-2013 Contact form*/  
+ a.button_big {
+    margin: 0px 0px 0px 0px !important;
+}
+.two_third {
+    width: 98.35% !important;
+}
+
+a.button_big {
+    margin: 27px !important;
+}
+ /* BEGIN  Added By Prashant 07-Aug-2013 */  
+#main_content {
+    width: 100% !important;
+}
+.hastable table {
+    word-break: break-all !important;
+}
+
+ #main_content .mycontent {
+    
+
+    width:100% !important
+}
+ 
+a.button_big {
+    margin: -1px 41px -2px -9px !important;
+}
+ /* Begin Added By Prashant For Pricing Table */
+
+ .pricing .price_col {
+       margin-left: 106px !important;
+}
+
+.pricing .price_dev_1 {
+    margin-left: 110px !important;
+}
+.pricing .price_col_last {
+    margin-left: 102px !important;
+}
+.pricing .price_info {
+  max-width: 140px !important;
+   width: 40% !important;
+     margin-left: 0px !important;
+}
+
+
+
+/* End Added By Prashant For Pricing Table */
+
+}
+
+/* end: Media queries started */
+
+/* New CSS added by Pallavi for responsive design */
+#header{ width:100%; }
+#header .wrapper {
+	max-width: 980px;
+	width:100%;
+}
+#featured {
+/*	width:100%; */
+}
+#featured .wrapper {
+	max-width: 980px;
+	width:100%;
+}
+#slider {
+	max-width: 980px;
+	width:100%;
+}
+ #slider .image-slide img { max-width:100%; }//added by arvind
+#featured .alternate {
+	width:100%;
+}
+#featured .alternate .feat_text {
+	width: 51%;
+}
+#featured .alternate #screenshot {
+    width: 49%;
+}
+#featured .alternate #screenshot img { max-width: 100%; }
+#main_content { width: 97%;}  
+#main_content .wrapper {max-width: 980px;width:100%;}
+#footer{ width:100%; }
+#footer .wrapper {	max-width: 980px; width:100%; }
+#footer .wrapper .widget  { background-size: 100% 100%; }
+#footer_bottom {/* width: 100%;*/ }
+#footer_bottom .wrapper { /*max-width: 980px;*/ width:100%; }
+#contact-form-widget #contactFormWidget #submittedWidget, #contact-form-widget #contactFormWidgetsidebar #submittedWidget {max-width: 100%; }
+#header { background-size: 100% 100%;} 
+body.single p.breadcrumb { max-width: 980px; width:100%; }
+#main_content .main_wrapper { max-width: 700px; width:99%; }
+#main_content .main_sidebar .widget {max-width: 243px; width: 100%;}
+
+.one_half {margin-bottom: 4px;}
+#contact_form textarea, #commentform textarea, #contact-form-widget textarea { width: 80%; }
+#contact_form input, #commentform input, #contact-form-widget input { width: 60%;  }
+
+//new css added by arvind
+//#featured {padding:6px!important;}
+#featured .alternate #slider a.image-overlay{max-width: 100%;}
+.pricing .price_col_last{
+	 margin-right: 1px;
+    width: 194px;
+}
+.pricing .price_info {
+	width: 180px;
+}
+//#main_content .testimonial_box {width:100%}
+
+#main_content .post_small .inner, #main_content .post_footer{
+	padding:0 17px 0;
+}
+
+#footer .wrapper .widget{
+	width:272px;
+}
+/*=======================venkat_09.04.2011=================*/
+.four_column .one_fourth .gallery_item { padding: 4px !important; }
+
+
+#main_content {
+/*  width: 100% !important;  */
+width: 100%;
+
+
+}
+}
+
+#main_content .post_first {
+    margin: 0 -10px 25px 7px !important;
+}
+/* Added By Prashant 07-Aug-13 #main_content .mycontent */
+
+#main_content .mycontent {
+float:none !important;
+    
+}
+
+
+/* End*/
+ 
+ #featured .alternate #screenshot {
+    margin-right: -37px;
+    margin-top: -303px;
+}
+
+/* Added By Prashant 07-Aug-13 #breadcrumb .breadcrumb */
+#breadcrumb .breadcrumb {
+    margin: 0px auto;
+    max-width: 980px !important;
+    width:100% !important;
+}
+
+
+#main_content .post_last {
+    margin: 0 -9px 25px !important;
+}/* End : New pricing table CSS */
+
+/* Added By Prashant Walke 16-Aug-2013 for image*/
+#featured .alternate #screenshot {
+
+    margin-top: 1px;
+}
+
+#featured .alternate #screenshot {
+
+    max-height: 393px !important;
+    max-width: 518px !important;
+    
+}
+/* End By Prashant Walke 16-Aug-2013 */ 

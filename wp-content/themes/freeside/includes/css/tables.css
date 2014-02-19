@@ -1,0 +1,68 @@
+	/* Tables */
+
+.hastable table {
+	background: #fff;
+	border-color:#DEDEDE #DEDEDE;
+	border-style:solid solid none;
+	border-width:1px 1px medium;
+	width:100%;
+}
+
+.hastable thead td, .hastable thead th {
+	background-color:#E6E6E6;
+}
+
+.hastable tr td, .hastable thead th {
+	border-left:1px solid #CCCCCC;
+	color:#616161;
+	padding:8px;
+	text-align:left;
+}
+.hastable tr td {
+	vertical-align:middle;
+}
+
+.hastable thead td, .hastable thead th {
+	font-weight:bold;
+	padding:8px;
+	text-align:center;
+}
+
+.hastable th, .hastable td {
+	border-bottom:1px solid #DEDEDE;
+}
+
+.hastable tbody th {
+	padding:0 8px;
+	text-align:left;
+}
+
+.hastable tbody tr.alt td, .hastable tbody tr.odd td {
+	color:#464646;
+	vertical-align:middle;
+}
+
+.hastable tbody tr.alt td, .hastable tbody tr.alt th, .hastable tbody tr.odd {
+	background-color:#F5F5F5;
+}
+
+.hastable tbody tr:hover td, .hastable tbody tr:hover th {
+	background-color:#FFFFCF;
+}
+
+.header span {
+	float:right;
+	margin-top:-3px;
+}
+
+.hastable tr .center {
+	width:5px;
+}
+
+.hastable table a.btn span.ui-icon {
+	left:0.1em;
+}
+
+.hastable table a.btn {
+	margin:0 5px;
+}

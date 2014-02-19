@@ -1,0 +1,2215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: chimerathemes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-24 03:28+0200\n"
+"PO-Revision-Date: 2010-08-24 15:39+0200\n"
+"Last-Translator: gigiscandal <gigiscandal@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: ../templates\n"
+"X-Poedit-SearchPath-1: ../templates/options\n"
+"X-Poedit-SearchPath-2: ../..\n"
+"X-Poedit-SearchPath-3: ../../theme\n"
+"X-Poedit-SearchPath-4: ../../..\n"
+
+#: ../templates/framework_settings.php:15
+msgid "Framework settings"
+msgstr "Configurações Framework"
+
+#: ../templates/framework_settings.php:20
+msgid "Import/Export"
+msgstr "Importação / Exportação"
+
+#: ../templates/framework_settings.php:29
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+#: ../templates/news_feed.php:5
+msgid "Read more about "
+msgstr "Leia mais sobre "
+
+#: ../templates/options/tab_subcontent_close.php:4
+msgid "or"
+msgstr "ou"
+
+#: ../templates/options/tab_subcontent_close.php:5
+msgid "Reset Options"
+msgstr "Redefinir as opções"
+
+#: ../templates/options/tab_subcontent_close.php:5
+msgid "Click OK to reset. Any settings will be lost!"
+msgstr "Clique em OK para reiniciar. Todas as configurações serão perdidas!"
+
+#: ../../admin/comments-functions.php:16
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s a %2$s"
+
+#: ../../admin/comments-functions.php:16
+#: ../../admin/comments-functions.php:48
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: ../../admin/comments-functions.php:24
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">diz:</span>"
+
+#: ../../admin/comments-functions.php:29
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+#: ../../admin/comments-functions.php:48
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../../admin/framework_options.php:7
+msgid "Import options"
+msgstr "Opções de importação"
+
+#: ../../admin/framework_options.php:8
+msgid "Paste here the export code to import the theme settings and options."
+msgstr "Cole aqui o código de exportação para importar as configurações e opções de tema."
+
+#: ../../admin/framework_options.php:14
+msgid "Export options"
+msgstr "Opções de exportação"
+
+#: ../../admin/framework_options.php:15
+msgid "Use this code to export your themes settings and options to another instance of this theme. Copy this code and paste it in the other theme in the Import Settings textarea."
+msgstr "Use este código para exportar as configurações de seus temas e opções para outra instância do tema. Copie o código e cole-o em outro tema no textarea configurações de importação."
+
+#: ../../admin/meta_boxes.php:22
+#: ../../admin/meta_boxes.php:23
+msgid "Post options"
+msgstr "Opções Post"
+
+#: ../../admin/page_navi.php:188
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Página %CURRENT_PAGE% de %TOTAL_PAGES%"
+
+#: ../../admin/page_navi.php:191
+#: ../../admin/page_navi.php:192
+msgid "..."
+msgstr "..."
+
+#: ../../admin/shortcodes.php:212
+#: ../../admin/shortcodes.php:307
+#: ../../admin/shortcodes.php:393
+#: ../../admin/shortcodes.php:549
+#: ../../admin/shortcodes.php:666
+msgid "No Preview Available"
+msgstr "Sem visualização disponível"
+
+#: ../../admin/shortcodes.php:463
+msgid "Posted on "
+msgstr "Postado em "
+
+#: ../../admin/shortcodes.php:468
+msgid "No comments"
+msgstr "Sem comentários"
+
+#: ../../admin/shortcodes.php:468
+msgid "One comment"
+msgstr "Um comentário"
+
+#: ../../admin/shortcodes.php:468
+msgid "% Comments"
+msgstr "% Comentários"
+
+#: ../../admin/shortcodes.php:469
+msgid "Permanent Link to "
+msgstr "Link Permanente de "
+
+#: ../../admin/shortcodes.php:469
+msgid "Continue reading... "
+msgstr "Continue lendo ... "
+
+#: ../../admin/shortcodes.php:997
+msgid "<strong>Thanks!</strong> Your email was successfully sent."
+msgstr "<strong>Obrigado!</strong> Seu e-mail foi enviado com sucesso."
+
+#: ../../admin/shortcodes.php:1003
+msgid "There was an error submitting the form."
+msgstr "Houve um erro ao enviar o formulário."
+
+#: ../../admin/shortcodes.php:1008
+msgid "Name: "
+msgstr "Nome:"
+
+#: ../../admin/shortcodes.php:1022
+msgid "Email:"
+msgstr "E-mail:"
+
+#: ../../admin/shortcodes.php:1036
+msgid "Message:"
+msgstr "Mensagem:"
+
+#: ../../admin/shortcodes.php:1052
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr "Se você quiser enviar este formulário, não digite nada neste campo"
+
+#: ../../admin/shortcodes.php:1061
+msgid "Send now"
+msgstr "Enviar agora"
+
+#: ../../admin/widgets.php:48
+#: ../../admin/widgets.php:100
+#: ../../admin/widgets.php:135
+#: ../../admin/widgets.php:164
+msgid "Title:"
+msgstr "Título:"
+
+#: ../../admin/widgets.php:96
+msgid "Account:"
+msgstr "Conta:"
+
+#: ../../admin/widgets.php:104
+msgid "Show:"
+msgstr "Show:"
+
+#: ../../admin/widgets.php:187
+msgid "Photos on <span>flick<span>r</span></span>"
+msgstr "Fotos em <span>flick<span>r</span></span>"
+
+#: ../../admin/widgets.php:208
+msgid "Flickr ID"
+msgstr "Flickr ID"
+
+#: ../../admin/widgets.php:212
+msgid "Number of photos:"
+msgstr "Número de fotos:"
+
+#: ../../admin/widgets.php:418
+msgid "Email Us"
+msgstr "E-mail Us"
+
+#: ../../admin/widgets.php:440
+msgid "Name *"
+msgstr "Nome *"
+
+#: ../../admin/widgets.php:444
+msgid "Email *"
+msgstr "Email *"
+
+#: ../../admin/widgets.php:482
+msgid "Email Address:"
+msgstr "Endereço Email:"
+
+#: ../../admin/widgets.php:486
+msgid "Email contact form for sidebar"
+msgstr "Email formulário de contato para a barra lateral"
+
+#: ../../admin/tinymce/window_page.php:10
+msgid "You are not allowed to be here"
+msgstr "Você não tem permissão para estar aqui"
+
+#: ../../theme/filters.php:25
+msgid "Top Bar Menu"
+msgstr "Menu Bar Top"
+
+#: ../../theme/filters.php:26
+msgid "Header Menu"
+msgstr "Menu de Cabeçalho"
+
+#: ../../theme/filters.php:27
+msgid "Footer Menu"
+msgstr "Menu Rodapé"
+
+#: ../../theme/header_extras.php:34
+#: ../../theme/header_extras.php:89
+msgid "Previous"
+msgstr "Anterior"
+
+#: ../../theme/header_extras.php:35
+#: ../../theme/header_extras.php:90
+msgid "Next"
+msgstr "Próximo"
+
+#: ../../theme/header_extras.php:171
+msgid "Page not found"
+msgstr "Página não encontrada"
+
+#: ../../theme/header_extras.php:208
+#: ../../theme/header_extras.php:212
+#: ../../theme/header_extras.php:270
+#: ../../theme/header_extras.php:274
+#: ../../theme/header_extras.php:328
+#: ../../theme/header_extras.php:332
+msgid "Subscribe to RSS Feed"
+msgstr "Inscrever-se RSS Feed"
+
+#: ../../theme/header_extras.php:208
+#: ../../theme/header_extras.php:212
+#: ../../theme/header_extras.php:270
+#: ../../theme/header_extras.php:274
+#: ../../theme/header_extras.php:328
+#: ../../theme/header_extras.php:332
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+#: ../../theme/header_extras.php:218
+#: ../../theme/header_extras.php:280
+#: ../../theme/header_extras.php:338
+msgid "Follow on Twitter"
+msgstr "Siga no Twitter"
+
+#: ../../theme/header_extras.php:224
+#: ../../theme/header_extras.php:286
+#: ../../theme/header_extras.php:344
+msgid "Follow on Facebook"
+msgstr "Siga no Facebook"
+
+#: ../../theme/header_extras.php:230
+#: ../../theme/header_extras.php:292
+#: ../../theme/header_extras.php:350
+msgid "View Flickr"
+msgstr "Ver Flickr"
+
+#: ../../theme/header_extras.php:236
+#: ../../theme/header_extras.php:298
+#: ../../theme/header_extras.php:356
+msgid "View LinkedIn Profile"
+msgstr "Exibir perfil LinkedIn"
+
+#: ../../theme/meta_boxes.php:10
+msgid "Post Image"
+msgstr "Post Imagem"
+
+#: ../../theme/meta_boxes.php:10
+msgid "Write the absolute URL for the post image or upload a new one using the button below."
+msgstr "Escreva o URL absoluto para a imagem do post ou enviar um novo usando o botão abaixo."
+
+#: ../../theme/meta_boxes.php:11
+msgid "Post Video"
+msgstr "Post Vídeo"
+
+#: ../../theme/meta_boxes.php:11
+msgid "Write the embed code of the video you would like to associate with this post."
+msgstr "Escreva o código embed do vídeo que você gostaria de associar a este post."
+
+#: ../../theme/meta_boxes.php:12
+#: ../../theme/meta_boxes.php:36
+msgid "Custom sidebar"
+msgstr "Personalizado barra lateral"
+
+#: ../../theme/meta_boxes.php:12
+msgid "Associate a sidebar for this post. You can create new sidebars in the theme options area. If none is selected, the default sidebar will be used."
+msgstr "Associar uma barra lateral para este post. Você pode criar novos laterais na área de opções de tema. Se nenhum for selecionado, a barra lateral padrão será usado."
+
+#: ../../theme/meta_boxes.php:13
+#: ../../theme/meta_boxes.php:37
+msgid "Sidebar position"
+msgstr "Barra lateral posição"
+
+#: ../../theme/meta_boxes.php:13
+msgid "Select the sidebar position for this post only. By default the sidebar position is set to whatever you defined in the theme admin area for the sidebar default position."
+msgstr "Selecione a posição da barra lateral para este post só. Por padrão, a barra lateral é a posição definida para o que você definiu na área administrativa do tema para a posição padrão da barra lateral."
+
+#: ../../theme/meta_boxes.php:16
+#: ../../theme/meta_boxes.php:40
+msgid "Title subheading"
+msgstr "Subposição título"
+
+#: ../../theme/meta_boxes.php:16
+msgid "Write the title description that you would like to show below the actual post title. You can disable all title subheadings from the theme admin area."
+msgstr "Escreva a descrição do título que você gostaria de mostrar abaixo do título do post real. Você pode desativar todas as posições título da área de administração do tema."
+
+#: ../../theme/meta_boxes.php:17
+#: ../../theme/meta_boxes.php:41
+msgid "Title teaser text"
+msgstr "Título de texto teaser"
+
+#: ../../theme/meta_boxes.php:17
+msgid "Select what to show in the title teaser for this post only."
+msgstr "Selecione o que mostrar no teaser título para este post só."
+
+#: ../../theme/meta_boxes.php:18
+#: ../../theme/meta_boxes.php:42
+msgid "Admin default"
+msgstr "Admin padrão"
+
+#: ../../theme/meta_boxes.php:19
+#: ../../theme/meta_boxes.php:43
+msgid "Custom text"
+msgstr "Texto personalizado"
+
+#: ../../theme/meta_boxes.php:20
+#: ../../theme/meta_boxes.php:44
+#: ../../theme/options.php:618
+msgid "Social icons"
+msgstr "ícones Social"
+
+#: ../../theme/meta_boxes.php:21
+#: ../../theme/meta_boxes.php:45
+msgid "Disabled"
+msgstr "# Incapaz"
+
+#: ../../theme/meta_boxes.php:22
+#: ../../theme/meta_boxes.php:46
+msgid "default"
+msgstr "# falta"
+
+#: ../../theme/meta_boxes.php:23
+#: ../../theme/meta_boxes.php:47
+msgid "Teaser custom text"
+msgstr "Teaser de texto personalizado"
+
+#: ../../theme/meta_boxes.php:23
+msgid "Write the custom text that you would like to appear in the title teaser for this post. You can use HTML code to insert buttons or custom code."
+msgstr "Escreva o texto personalizado que você gostaria de aparecer no teaser título para este post. Você pode usar código HTML para inserir ou botões de código personalizado."
+
+#: ../../theme/meta_boxes.php:36
+msgid "Associate a sidebar for this page. You can create new sidebars in the theme options area. If none is selected, the default sidebar will be used."
+msgstr "Associar uma barra lateral desta página. Você pode criar novos laterais na área de opções de tema. Se nenhum for selecionado, a barra lateral padrão será usado."
+
+#: ../../theme/meta_boxes.php:37
+msgid "Select the sidebar position for this page only. By default the sidebar position is set to whatever you defined in the theme admin area for the sidebar default position."
+msgstr "Selecione a posição da barra lateral apenas para esta página. Por padrão, a barra lateral é a posição definida para o que você definiu na área administrativa do tema para a posição padrão da barra lateral."
+
+#: ../../theme/meta_boxes.php:40
+msgid "Write the title description that you would like to show below the actual page title. You can disable all title subheadings from the theme admin area."
+msgstr "Escreva a descrição do título que você gostaria de mostrar abaixo do título da página. Você pode desativar todas as posições título da área de administração do tema."
+
+#: ../../theme/meta_boxes.php:41
+msgid "Select what to show in the title teaser for this page only."
+msgstr "Selecione o que mostrar no teaser título apenas para esta página."
+
+#: ../../theme/meta_boxes.php:47
+msgid "Write the custom text that you would like to appear in the title teaser for this page. You can use HTML code to insert buttons or custom code."
+msgstr "Escreva o texto personalizado que você gostaria de aparecer no teaser título para esta página. Você pode usar código HTML para inserir ou botões de código personalizado."
+
+#: ../../theme/options.php:21
+msgid "General settings"
+msgstr "As definições gerais"
+
+#: ../../theme/options.php:27
+msgid "Style editor"
+msgstr "Editor de estilo"
+
+#: ../../theme/options.php:33
+msgid "Help &amp; Support"
+msgstr "Ajuda e suporte"
+
+#: ../../theme/options.php:52
+#: ../../theme/options.php:811
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: ../../theme/options.php:58
+msgid "Homepage"
+msgstr "Página Principal"
+
+#: ../../theme/options.php:64
+#: ../../theme/options.php:817
+msgid "Featured area"
+msgstr "Área em destaque"
+
+#: ../../theme/options.php:70
+msgid "Titles"
+msgstr "Títulos"
+
+#: ../../theme/options.php:76
+#: ../../theme/options.php:751
+msgid "Sidebars"
+msgstr "Barras laterais"
+
+#: ../../theme/options.php:82
+msgid "Miscellaneous"
+msgstr "Diverso"
+
+#: ../../theme/options.php:98
+msgid "Custom logo"
+msgstr "O logotipo personalizado"
+
+#: ../../theme/options.php:99
+msgid "Upload a logo for your theme, or specify the image address of your online logo. ( http://example.com/logo.png )"
+msgstr "Fazer upload de um logotipo para o seu tema, ou especificar o endereço da imagem do logotipo de sua linha. (Http://example.com/logo.png)"
+
+#: ../../theme/options.php:105
+msgid "Custom RSS feed"
+msgstr "Custom feed RSS"
+
+#: ../../theme/options.php:106
+msgid "Add here the URL of your custom RSS feed. If you leave this field blank, it will use the standard WordPress RSS feed."
+msgstr "Adicione aqui o URL do seu feed RSS personalizado. Se você deixar este campo em branco, ele usará o padrão WordPress feed RSS."
+
+#: ../../theme/options.php:124
+msgid "Homepage content pages"
+msgstr "Conteúdo das páginas homepage"
+
+#: ../../theme/options.php:132
+msgid "Top content from:"
+msgstr "Top de conteúdo:"
+
+#: ../../theme/options.php:136
+msgid "Select the page from which you would like to show content on homepage below the features area."
+msgstr "Selecione a página que você gostaria de mostrar o conteúdo na página inicial abaixo da área de recursos."
+
+#: ../../theme/options.php:140
+msgid "Bottom content from:"
+msgstr "Bottom conteúdo:"
+
+#: ../../theme/options.php:144
+msgid "Select the page from which you would like to show content on homepage above the footer area."
+msgstr "Selecione a página que você gostaria de mostrar o conteúdo na página acima da área de rodapé."
+
+#: ../../theme/options.php:154
+msgid "Homepage Blog section"
+msgstr "Home seção Blog página"
+
+#: ../../theme/options.php:157
+msgid "Enable homepage blog section ?"
+msgstr "Home page seção Habilitar blog?"
+
+#: ../../theme/options.php:158
+msgid "Enable homepage blog section."
+msgstr "Home page seção Habilitar blog."
+
+#: ../../theme/options.php:164
+msgid "Homepage blog section style"
+msgstr "Homepage estilo seção blog"
+
+#: ../../theme/options.php:165
+msgid "Select how should the homepage blog posts look. You can choose between three small posts per line or big posts with a homepage sidebar."
+msgstr "Selecione como deve a home page blog olhar. Você pode escolher entre três lugares pequenos por linha ou postos grande com uma barra lateral homepage."
+
+#: ../../theme/options.php:171
+msgid "Small post boxes  without sidebar"
+msgstr "Pequenas caixas de correio sem a sidebar"
+
+#: ../../theme/options.php:172
+msgid "Big post boxes with sidebar"
+msgstr "Caixas de correio com o big sidebar"
+
+#: ../../theme/options.php:179
+msgid "Blog section category"
+msgstr "Blog categoria seção"
+
+#: ../../theme/options.php:180
+msgid "Select from what category to show posts in the homepage section."
+msgstr "Selecione a partir de qual categoria para mostrar mensagens na seção homepage."
+
+#: ../../theme/options.php:186
+msgid "Posts entries"
+msgstr "Entradas posts"
+
+#: ../../theme/options.php:187
+msgid "Select how many posts to show in the homepage blog section."
+msgstr "Selecione quantos posts para mostrar na seção blog homepage."
+
+#: ../../theme/options.php:210
+msgid "Featured area style"
+msgstr "Estilo de área em destaque"
+
+#: ../../theme/options.php:211
+msgid "Select the look of the featured homepage area. Each featured area style has additional options located in the boxes below."
+msgstr "Selecione o olhar da área homepage destaque. Cada estilo caracterizado área tem opções adicionais localizados nos campos abaixo."
+
+#: ../../theme/options.php:217
+msgid "Featured slider from posts"
+msgstr "Destaque slider de posts"
+
+#: ../../theme/options.php:218
+msgid "Dynamic featured slider"
+msgstr "Dynamic caracterizado slider"
+
+#: ../../theme/options.php:219
+#: ../../theme/options.php:341
+msgid "Static featured area"
+msgstr "Static caracterizado área"
+
+#: ../../theme/options.php:222
+msgid "Dynamic slider"
+msgstr "Slider dynamic"
+
+#: ../../theme/options.php:223
+msgid "Easily build a featured slider for your homepage just the way you want it."
+msgstr "Facilmente construir uma barra de destaque para a sua página do jeito que você quiser."
+
+#: ../../theme/options.php:229
+#: ../../theme/options.php:315
+#: ../../theme/options.php:347
+msgid "Content"
+msgstr "Conteúdo"
+
+#: ../../theme/options.php:233
+msgid "Slide title"
+msgstr "Título do slide"
+
+#: ../../theme/options.php:234
+msgid "Enter desired slide title."
+msgstr "Digite o título slide desejado."
+
+#: ../../theme/options.php:240
+msgid "Slide text"
+msgstr "Texto do slide"
+
+#: ../../theme/options.php:241
+msgid "Enter desired slide text."
+msgstr "Digite o texto slide desejado."
+
+#: ../../theme/options.php:246
+msgid "Slide image"
+msgstr "Slide imagem"
+
+#: ../../theme/options.php:247
+msgid "You can upload an image for each slide in the dynamic slider."
+msgstr "Você pode carregar uma imagem para cada slide na barra dinâmica."
+
+#: ../../theme/options.php:252
+msgid "Button"
+msgstr "Botão"
+
+#: ../../theme/options.php:256
+msgid "Button title"
+msgstr "Título de button"
+
+#: ../../theme/options.php:257
+msgid "Enter title for the slide button.Leave empty to hide the button."
+msgstr "Digite o título para o button.Leave slide vazio para esconder o botão."
+
+#: ../../theme/options.php:263
+msgid "Button link"
+msgstr "Link button"
+
+#: ../../theme/options.php:264
+msgid "Select which page the button link should point to."
+msgstr "Selecione a página que o link deve apontar para o botão."
+
+#: ../../theme/options.php:269
+#: ../../theme/options.php:404
+#: ../../theme/options.php:429
+#: ../../theme/options.php:480
+#: ../../../404.php:17
+msgid "Pages"
+msgstr "Páginas"
+
+#: ../../theme/options.php:270
+#: ../../theme/options.php:405
+#: ../../theme/options.php:430
+#: ../../theme/options.php:481
+msgid "Posts"
+msgstr "Posts"
+
+#: ../../theme/options.php:274
+msgid "Button background"
+msgstr "Fundo button"
+
+#: ../../theme/options.php:275
+#: ../../theme/options.php:435
+msgid "Select background for this slide's button."
+msgstr "Selecione este botão de fundo para slide."
+
+#: ../../theme/options.php:287
+msgid "Button alignment"
+msgstr "Alinhamento button"
+
+#: ../../theme/options.php:288
+msgid "Select how to align the slide button."
+msgstr "Selecione a forma de alinhar o botão de slide."
+
+#: ../../theme/options.php:298
+msgid "Animation settings"
+msgstr "Configurações de animação"
+
+#: ../../theme/options.php:301
+msgid "Animation effect"
+msgstr "Efeito de animação"
+
+#: ../../theme/options.php:302
+msgid "Select what animation effect to use for this slide. Select default to use the default animation defined below."
+msgstr "Selecione o efeito de animação a ser usado para esse slide. padrão Selecione para usar a animação padrão definido abaixo."
+
+#: ../../theme/options.php:312
+msgid "Featured posts slider"
+msgstr "Slider posts em destaque"
+
+#: ../../theme/options.php:321
+msgid "Featured Category"
+msgstr "Destaque da categoria"
+
+#: ../../theme/options.php:322
+msgid "Select the category that you would like to have displayed in the featured slider on your homepage."
+msgstr "Escolha a categoria que você gostaria de ter exibido na barra apresentado em sua página inicial."
+
+#: ../../theme/options.php:324
+msgid "Select a category:"
+msgstr "Selecione uma categoria:"
+
+#: ../../theme/options.php:327
+msgid "Featured Entries"
+msgstr "Entradas em destaque"
+
+#: ../../theme/options.php:328
+msgid "Select the number of entries that should appear in the featured slider on the homepage."
+msgstr "Selecione o número de entradas que devem aparecer no slider destaque na homepage."
+
+#: ../../theme/options.php:350
+#: ../../theme/options.php:416
+#: ../../theme/options.php:467
+msgid "Title"
+msgstr "Título"
+
+#: ../../theme/options.php:351
+msgid "Write here the text you would like to appear as a title for the featured section on homepage."
+msgstr "Escreva aqui o texto que você gostaria de aparecer como um título para a seção de destaque na homepage."
+
+#: ../../theme/options.php:353
+msgid "Create your own custom theme style directly from the theme admin area."
+msgstr "Crie o seu estilo próprio tema personalizado diretamente da área de admin tema."
+
+#: ../../theme/options.php:355
+msgid "Text"
+msgstr "Texto"
+
+#: ../../theme/options.php:356
+msgid "Write here the text you would like to appear on the featured section on homepage."
+msgstr "Escreva aqui o texto que você gostaria de aparecer na seção de destaque na homepage."
+
+#: ../../theme/options.php:358
+msgid "You don't need designer skills to create wonderful theme styles. You can upload backgrounds change colors, fonts, paddings, borders, etc."
+msgstr "Você não precisa de habilidades de designer para criar estilos tema maravilhoso. Você pode enviar cores mude fundos, fontes, paddings, bordas, etc"
+
+#: ../../theme/options.php:362
+msgid "Screenshot"
+msgstr "Captura de tela"
+
+#: ../../theme/options.php:368
+msgid "Screenshot title"
+msgstr "Captura de tela título"
+
+#: ../../theme/options.php:369
+msgid "What text should appear on the screenshot when hovered. Leave empty to hide the link."
+msgstr "O texto deve aparecer na tela quando pairava. Deixe em branco para esconder o link."
+
+#: ../../theme/options.php:371
+msgid "Example screenshot video modal"
+msgstr "Example screen shot video modal"
+
+#: ../../theme/options.php:373
+msgid "Screenshot Image"
+msgstr "Captura de tela Image"
+
+#: ../../theme/options.php:374
+msgid "Use an absolute URL for the static featured area image or upload using the upload button."
+msgstr "Use uma URL absoluta para a área de imagem estática caracterizado ou fazer upload usando o botão de upload."
+
+#: ../../theme/options.php:381
+msgid "Screenshot link location"
+msgstr "Captura de tela ligação local"
+
+#: ../../theme/options.php:382
+msgid "Select what to show when the screenshot is clicked. In order for the Video modal to work, the Video embed code textarea below needs to contain something."
+msgstr "Selecione o que mostrar quando a imagem for clicado. Para que o modal Video para o trabalho, o vídeo textarea código embed aquém das necessidades para conter algo."
+
+#: ../../theme/options.php:387
+msgid "Screenshot without link"
+msgstr "Captura de tela sem link"
+
+#: ../../theme/options.php:388
+msgid "Open video modal"
+msgstr "Open modal vídeo"
+
+#: ../../theme/options.php:389
+msgid "Link to a page/post"
+msgstr "Link para uma página de mensagens"
+
+#: ../../theme/options.php:392
+msgid "Video embed code"
+msgstr "Video inserir código"
+
+#: ../../theme/options.php:393
+msgid "Write here the code that you would like to appear in the modal box that opens when the screenshot is clicked."
+msgstr "Escreva aqui o código que você gostaria de aparecer na caixa modal que se abre quando a imagem for clicado."
+
+#: ../../theme/options.php:398
+msgid "Screenshot Link"
+msgstr "Captura de tela # ligação"
+
+#: ../../theme/options.php:399
+msgid "Where should the screenshot point to when clicked. Is active only if the Enable screenshot link is enabled."
+msgstr "Onde deve ser o ponto de captura de tela para quando clicado. Só está activa se o link Ativar tela está ativado."
+
+#: ../../theme/options.php:409
+msgid "First button"
+msgstr "O primeiro botão"
+
+#: ../../theme/options.php:417
+msgid "Enter title for the left button. Leave empty to hide it."
+msgstr "Digite o título para o botão esquerdo. Deixe em branco para escondê-lo."
+
+#: ../../theme/options.php:423
+#: ../../theme/options.php:474
+msgid "Link"
+msgstr "Ligação"
+
+#: ../../theme/options.php:424
+msgid "Select which page the left button link should point to."
+msgstr "Selecione a página que o link do botão esquerdo deve apontar."
+
+#: ../../theme/options.php:434
+#: ../../theme/options.php:485
+#: ../../theme/options.php:913
+#: ../../theme/options.php:999
+#: ../../theme/options.php:1062
+#: ../../theme/options.php:1092
+#: ../../theme/options.php:1128
+#: ../../theme/options.php:1238
+#: ../../theme/options.php:1315
+#: ../../theme/options.php:1423
+#: ../../theme/options.php:1520
+#: ../../theme/options.php:1665
+#: ../../theme/options.php:1816
+#: ../../theme/options.php:1920
+#: ../../theme/options.php:2064
+#: ../../theme/options.php:2207
+#: ../../theme/options.php:2280
+#: ../../theme/options.php:2497
+#: ../../theme/options.php:2635
+#: ../../theme/options.php:2672
+#: ../../theme/options.php:2708
+msgid "Background"
+msgstr "Fundo"
+
+#: ../../theme/options.php:447
+#: ../../theme/options.php:498
+msgid "Alignment"
+msgstr "Alinhamento"
+
+#: ../../theme/options.php:448
+msgid "Select how to align the left button."
+msgstr "Selecione a forma de alinhar com o botão esquerdo."
+
+#: ../../theme/options.php:460
+msgid "Second button"
+msgstr "Segundo botão"
+
+#: ../../theme/options.php:468
+msgid "Enter title for the left button.Leave empty to hide it."
+msgstr "Enter title for the left button.Leave empty to hide it."
+
+#: ../../theme/options.php:475
+msgid "Select which page the right button link should point to."
+msgstr "Selecione a página que o link com o botão direito deveria apontar."
+
+#: ../../theme/options.php:486
+msgid "Select background for this right button."
+msgstr "Selecione fundo para o botão direito."
+
+#: ../../theme/options.php:499
+msgid "Select how to align the right button."
+msgstr "Selecione a forma de alinhar com o botão direito."
+
+#: ../../theme/options.php:515
+msgid "Other settings"
+msgstr "Outras definições"
+
+#: ../../theme/options.php:521
+msgid "Remove slider bullets navigation ?"
+msgstr "Slider remover navegação balas?"
+
+#: ../../theme/options.php:522
+msgid "Remove the breadcrumb navigation bullets from homepage."
+msgstr "Retire as balas de navegação breadcrumb homepage."
+
+#: ../../theme/options.php:530
+msgid "Sliders animation settings"
+msgstr "Animação configurações sliders"
+
+#: ../../theme/options.php:536
+msgid "Default animation effect"
+msgstr "Default efeito de animação"
+
+#: ../../theme/options.php:537
+msgid "Select what animation effect to use by default for the homepage slider."
+msgstr "Selecione o efeito de animação para usar por padrão para a barra homepage."
+
+#: ../../theme/options.php:542
+msgid "Timeout"
+msgstr "Time out"
+
+#: ../../theme/options.php:543
+msgid "Milliseconds between slide transitions (0 to disable auto advance). Default: 3500"
+msgstr "Milissegundos entre as transições de slides (0 para avançar auto desativar). Default: 3500"
+
+#: ../../theme/options.php:547
+msgid "Speed"
+msgstr "Velocidade"
+
+#: ../../theme/options.php:548
+msgid "Speed of the slide transition. Default: 1000"
+msgstr "Velocidade da transição de slides. Default: 1000"
+
+#: ../../theme/options.php:552
+msgid "Hover pause"
+msgstr "Pausa hover"
+
+#: ../../theme/options.php:553
+msgid "Enable hover pausing for the homepage slider."
+msgstr "Activaràpassagem pausa para o controle deslizante homepage."
+
+#: ../../theme/options.php:557
+msgid "First slide delay"
+msgstr "Primeiro slide atraso"
+
+#: ../../theme/options.php:558
+msgid "Add additional delay (in ms) for first transition only. You can also set a negative value if you want the first slide to disappear faster. Default: 0"
+msgstr "Adicionar atraso adicional (em ms) para a primeira transição apenas. Você também pode definir um valor negativo se você deseja que o primeiro slide a desaparecer rapidamente. Default: 0"
+
+#: ../../theme/options.php:577
+msgid "Enable titles subheadings ?"
+msgstr "Habilitar subposições títulos?"
+
+#: ../../theme/options.php:578
+msgid "Disable all title subheadings regardless of the options defined for each page/post. Title subheadings are shown below the title and can be defined in the page/post custom options."
+msgstr "Desative todos os subtítulos do título, independentemente das opções definidas para cada página / post. Título subposições são mostrados abaixo do título e podem ser definidos na página / post opções personalizadas."
+
+#: ../../theme/options.php:583
+msgid "Pages/Posts default title teaser"
+msgstr "Artigos / Posts teaser título padrão"
+
+#: ../../theme/options.php:584
+msgid "Select what to show in the title teaser area for posts and pages when no other option is selected on post page."
+msgstr "Select what to show in the title teaser area for posts and pages when no other option is selected on post page."
+
+#: ../../theme/options.php:594
+msgid "Default custom text for pages/posts title teaser"
+msgstr "Padrão de texto personalizado para as páginas / posts teaser título"
+
+#: ../../theme/options.php:595
+msgid "Default custom text for posts/pages title teaser when no other option is selected on post page or in the option box above."
+msgstr "Padrão para mensagens de texto personalizado / teaser título páginas quando nenhuma outra opção é selecionada na página post ou na caixa de opção acima."
+
+#: ../../theme/options.php:600
+msgid "Categories default title teaser"
+msgstr "Categorias teaser título padrão"
+
+#: ../../theme/options.php:601
+msgid "Select what to show in the title teaser area for categories."
+msgstr "Selecione o que mostrar na área teaser título para as categorias."
+
+#: ../../theme/options.php:611
+msgid "Default custom text for categories title teaser"
+msgstr "Padrão de texto personalizado para as categorias teaser título"
+
+#: ../../theme/options.php:612
+msgid "Default custom text for categories title teaser when no other option is selected on post page or in the option box above."
+msgstr "Padrão de texto personalizado para as categorias teaser título quando não há outra opção é selecionada na página post ou na caixa de opção"
+
+#: ../../theme/options.php:624
+msgid "RSS"
+msgstr "RSS"
+
+#: ../../theme/options.php:625
+msgid "Write here your custom RSS feed URL. If you leave this empty the standard RSS url will be used."
+msgstr "Escreva aqui o seu feed RSS personalizado URL. Se você deixar em branco a url RSS padrão será usado."
+
+#: ../../theme/options.php:629
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../../theme/options.php:630
+msgid "Write here your Twitter username. If you leave this empty the Twitter icon won't be shown in the social icons box."
+msgstr "Escreva aqui o seu nome de usuário do Twitter. Se você deixar em branco o ícone do Twitter não será mostrado na caixa de ícones social."
+
+#: ../../theme/options.php:634
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../../theme/options.php:635
+msgid "Write here your Facebook URL. If you leave this empty the Facebook icon won't be shown in the social icons box."
+msgstr "Escreva aqui a sua URL no Facebook. Se você deixar esse vazio no ícone do Facebook não será mostrado na caixa de ícones social."
+
+#: ../../theme/options.php:639
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../../theme/options.php:640
+msgid "Write here your Flickr URL. If you leave this empty the Flickr icon won't be shown in the social icons box."
+msgstr "Escreva aqui a sua Flickr URL. Se você deixar esse vazio no ícone do Flickr não será mostrado na caixa de ícones social."
+
+#: ../../theme/options.php:644
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: ../../theme/options.php:645
+msgid "Write here your LInkedIn URL. If you leave this empty the LinkedIn icon won't be shown in the social icons box."
+msgstr "Escreva aqui a sua URL LinkedIn. Se você deixar esse vazio no ícone LinkedIn não será mostrado na caixa de ícones social."
+
+#: ../../theme/options.php:666
+msgid "Footer options"
+msgstr "Opções de rodapé"
+
+#: ../../theme/options.php:672
+msgid "Footer copyright text"
+msgstr "Rodapé texto de direitos autorais"
+
+#: ../../theme/options.php:673
+msgid "Add here text that you want to appear in the copyright line in the footer."
+msgstr "Adicione aqui o texto que você quer que apareça na linha de copyright no rodapé."
+
+#: ../../theme/options.php:677
+msgid "Affiliate ID"
+msgstr "Affiliate ID"
+
+#: ../../theme/options.php:678
+#, php-format
+msgid "Add your ChimeraThemes affiliate link and earn 30% on every sale you send from your website. You can get your affiliate link from the members account. Click the link below to find out more."
+msgstr "Adicionar sua ligação da filial ChimeraThemes e ganhar 30% sobre cada venda que você enviar a partir do seu site. Você pode adquirir seu link afiliado da conta do membro. Clique no link abaixo para saber mais."
+
+#: ../../theme/options.php:682
+msgid "Analytics tracking code"
+msgstr "Código de monitoramento do analytics"
+
+#: ../../theme/options.php:683
+msgid "This is a little snippet that will be added before the closing of body tag. You can ad whatever code you want.eg. Google Analytics. Leave empty for none."
+msgstr "Este é um pequeno trecho que será adicionado antes do encerramento da tag body. Você anúncio pode ser qualquer código que você want.eg. Google Analytics. Deixe vazio para nenhum."
+
+#: ../../theme/options.php:695
+msgid "Miscellaneous settings"
+msgstr "Vários ajustes"
+
+#: ../../theme/options.php:701
+msgid "Enable FancyBox modals ?"
+msgstr "Modais habilitar FancyBox?"
+
+#: ../../theme/options.php:702
+msgid "Thumbnails open modals with images or videos, rather than going to the post page."
+msgstr "Modais miniaturas aberto com imagens ou vídeos, ao invés de ir para a página de post."
+
+#: ../../theme/options.php:706
+msgid "Remove breadcrumb from single pages ?"
+msgstr "Remover trilha de páginas únicas?"
+
+#: ../../theme/options.php:707
+msgid "Remove the breadcrumb navigation from all single pages or posts."
+msgstr "Remover o indicador de navegação de todas as páginas individuais ou posts."
+
+#: ../../theme/options.php:711
+msgid "Remove top navigation bar ?"
+msgstr "Remover barra de navegação superior?"
+
+#: ../../theme/options.php:712
+msgid "Remove the top navigation bar from your pages."
+msgstr "Remova a barra de navegação superior de suas páginas."
+
+#: ../../theme/options.php:716
+msgid "Enable social share box on posts ?"
+msgstr "Caixa ativar partes sociais em posts?"
+
+#: ../../theme/options.php:717
+msgid "Enable social share box for all posts."
+msgstr "Caixa ativar partes sociais para todos os lugares."
+
+#: ../../theme/options.php:721
+msgid "Enable social icons box in footer ?"
+msgstr "Caixa ativar ícones social em rodapé?"
+
+#: ../../theme/options.php:722
+msgid "Enable the social icons box in footer. You can define your social ID's in the admin menu under the Titles tabs > Social Icons"
+msgstr "Habilite a caixa de ícones social em rodapé. Você pode definir sua identidade social no menu admin sob as abas dos títulos> Social Icons"
+
+#: ../../theme/options.php:726
+msgid "Footer Options"
+msgstr "Opções de rodapé"
+
+#: ../../theme/options.php:743
+msgid "Create new sidebar"
+msgstr "Criar nova barra lateral"
+
+#: ../../theme/options.php:744
+msgid "Enter the name of the new sidebar that you would like to create and press the Save button below to create it."
+msgstr "Digite o nome da nova barra lateral que você gostaria de criar e pressione o botão \"Salvar\" abaixo para criá-la."
+
+#: ../../theme/options.php:757
+msgid "Sidebar default position"
+msgstr "Sidebar posição padrão"
+
+#: ../../theme/options.php:758
+msgid "Select default sidebar position for page/posts with no other option selected."
+msgstr "Selecione a posição padrão da barra lateral da página / posts com nenhuma outra opção selecionada."
+
+#: ../../theme/options.php:787
+msgid "Settings"
+msgstr "Configurações"
+
+#: ../../theme/options.php:793
+msgid "Body"
+msgstr "Corpo"
+
+#: ../../theme/options.php:799
+msgid "Drop down menus"
+msgstr "menus drop down"
+
+#: ../../theme/options.php:805
+msgid "Top navigation bar"
+msgstr "barra de navegação superior"
+
+#: ../../theme/options.php:823
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: ../../theme/options.php:829
+msgid "Main content area"
+msgstr "Principal área de conteúdo"
+
+#: ../../theme/options.php:835
+msgid "Blog posts"
+msgstr "Blog posts"
+
+#: ../../theme/options.php:841
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: ../../theme/options.php:847
+msgid "Footer"
+msgstr "Rodapé"
+
+#: ../../theme/options.php:853
+msgid "Forms &amp; Comments"
+msgstr "Formulários &amp; Comentários"
+
+#: ../../theme/options.php:869
+msgid "Theme stylesheet"
+msgstr "Tema estilo"
+
+#: ../../theme/options.php:870
+msgid "Select the style scheme you would like to use for your theme. Select 1-empty if you'd like to use only style editor generated CSS code."
+msgstr "Selecione o esquema de estilo que você gostaria de usar para seu tema. Selecione um vazio se você gostaria de usar apenas editor de código gerado estilo CSS."
+
+#: ../../theme/options.php:877
+msgid "Enable generated CSS styles ?"
+msgstr "Habilitar gerada estilos CSS?"
+
+#: ../../theme/options.php:878
+msgid "Enable the use of CSS code generated with our style editor."
+msgstr "Permitir a utilização do código CSS gerado com o nosso editor de estilo."
+
+#: ../../theme/options.php:883
+msgid "Tweak logo position"
+msgstr "Tweak posição logo"
+
+#: ../../theme/options.php:884
+msgid "Depending on your logo height, you might need to adjust the top margin so that your logo it perfectly vertically aligned."
+msgstr "Dependendo de sua altura de logo, talvez seja necessário ajustar a margem superior de modo que seu logo é perfeitamente alinhados verticalmente."
+
+#: ../../theme/options.php:891
+msgid "CSS snippets"
+msgstr "trechos de CSS"
+
+#: ../../theme/options.php:892
+msgid "Write here any custom CSS code you might have. Very useful for tweaking different theme areas."
+msgstr "Escreva aqui qualquer código CSS personalizado que você possa ter. Muito útil para ajustes áreas temáticas diferentes."
+
+#: ../../theme/options.php:909
+msgid "General page styling"
+msgstr "Geral styling página"
+
+#: ../../theme/options.php:921
+#: ../../theme/options.php:1007
+#: ../../theme/options.php:1136
+#: ../../theme/options.php:1246
+#: ../../theme/options.php:1323
+#: ../../theme/options.php:1431
+#: ../../theme/options.php:1528
+#: ../../theme/options.php:1673
+#: ../../theme/options.php:1774
+#: ../../theme/options.php:1824
+#: ../../theme/options.php:1928
+#: ../../theme/options.php:1977
+#: ../../theme/options.php:2072
+#: ../../theme/options.php:2215
+#: ../../theme/options.php:2288
+#: ../../theme/options.php:2344
+#: ../../theme/options.php:2406
+#: ../../theme/options.php:2505
+msgid "Background color"
+msgstr "Cor de fundo"
+
+#: ../../theme/options.php:922
+msgid "Select the background color for all pages."
+msgstr "Selecione a cor de fundo para todas as páginas."
+
+#: ../../theme/options.php:927
+#: ../../theme/options.php:1142
+#: ../../theme/options.php:1252
+#: ../../theme/options.php:1329
+#: ../../theme/options.php:1437
+#: ../../theme/options.php:1534
+#: ../../theme/options.php:1679
+#: ../../theme/options.php:1830
+#: ../../theme/options.php:1934
+#: ../../theme/options.php:1983
+#: ../../theme/options.php:2078
+#: ../../theme/options.php:2221
+#: ../../theme/options.php:2294
+#: ../../theme/options.php:2350
+#: ../../theme/options.php:2412
+#: ../../theme/options.php:2511
+msgid "Background image"
+msgstr "Imagem de fundo"
+
+#: ../../theme/options.php:928
+msgid "Upload an image for all pages backgrounds."
+msgstr "Carregar uma imagem de todas as páginas antecedentes."
+
+#: ../../theme/options.php:933
+#: ../../theme/options.php:1148
+#: ../../theme/options.php:1258
+#: ../../theme/options.php:1335
+#: ../../theme/options.php:1443
+#: ../../theme/options.php:1540
+#: ../../theme/options.php:1685
+#: ../../theme/options.php:1836
+#: ../../theme/options.php:1940
+#: ../../theme/options.php:1989
+#: ../../theme/options.php:2084
+#: ../../theme/options.php:2227
+#: ../../theme/options.php:2300
+#: ../../theme/options.php:2356
+#: ../../theme/options.php:2418
+#: ../../theme/options.php:2517
+msgid "Background repeat"
+msgstr "repetir Background"
+
+#: ../../theme/options.php:934
+#: ../../theme/options.php:1149
+#: ../../theme/options.php:1259
+#: ../../theme/options.php:1336
+#: ../../theme/options.php:1444
+#: ../../theme/options.php:1541
+#: ../../theme/options.php:1686
+#: ../../theme/options.php:1837
+#: ../../theme/options.php:1941
+#: ../../theme/options.php:1990
+#: ../../theme/options.php:2085
+#: ../../theme/options.php:2228
+#: ../../theme/options.php:2301
+#: ../../theme/options.php:2357
+#: ../../theme/options.php:2419
+#: ../../theme/options.php:2518
+msgid "Select how to repeat the background image, if any."
+msgstr "Selecione como repetir a imagem de fundo, se houver."
+
+#: ../../theme/options.php:940
+#: ../../theme/options.php:1155
+#: ../../theme/options.php:1265
+#: ../../theme/options.php:1342
+#: ../../theme/options.php:1450
+#: ../../theme/options.php:1547
+#: ../../theme/options.php:1692
+#: ../../theme/options.php:1843
+#: ../../theme/options.php:1947
+#: ../../theme/options.php:1996
+#: ../../theme/options.php:2091
+#: ../../theme/options.php:2234
+#: ../../theme/options.php:2307
+#: ../../theme/options.php:2363
+#: ../../theme/options.php:2425
+#: ../../theme/options.php:2524
+msgid "Background position"
+msgstr "posição do fundo"
+
+#: ../../theme/options.php:941
+#: ../../theme/options.php:1156
+#: ../../theme/options.php:1266
+#: ../../theme/options.php:1343
+#: ../../theme/options.php:1451
+#: ../../theme/options.php:1548
+#: ../../theme/options.php:1693
+#: ../../theme/options.php:1844
+#: ../../theme/options.php:1948
+#: ../../theme/options.php:1997
+#: ../../theme/options.php:2092
+#: ../../theme/options.php:2235
+#: ../../theme/options.php:2308
+#: ../../theme/options.php:2364
+#: ../../theme/options.php:2426
+#: ../../theme/options.php:2525
+msgid "Select the background position. You can either write top left to position the background image top left, or you can write values in pixels."
+msgstr "Selecione a posição de fundo. Você pode escrever canto superior esquerdo para a posição no topo esquerdo da imagem de fundo, ou você pode escrever os valores em pixels."
+
+#: ../../theme/options.php:949
+#: ../../theme/options.php:1194
+#: ../../theme/options.php:1389
+#: ../../theme/options.php:1476
+#: ../../theme/options.php:1586
+#: ../../theme/options.php:1731
+#: ../../theme/options.php:2128
+#: ../../theme/options.php:2563
+#: ../../theme/options.php:2629
+msgid "Typography"
+msgstr "Tipografia"
+
+#: ../../theme/options.php:957
+msgid "General fonts"
+msgstr "fontes Geral"
+
+#: ../../theme/options.php:958
+msgid "Select font style for the body tag."
+msgstr "Selecione o estilo de fonte para a tag body."
+
+#: ../../theme/options.php:963
+#: ../../theme/options.php:1600
+#: ../../theme/options.php:1745
+#: ../../theme/options.php:2170
+#: ../../theme/options.php:2584
+msgid "Links color"
+msgstr "cor Links"
+
+#: ../../theme/options.php:964
+msgid "Select font color for all links."
+msgstr "Selecione a cor da fonte para todos os links."
+
+#: ../../theme/options.php:969
+#: ../../theme/options.php:1208
+#: ../../theme/options.php:1606
+#: ../../theme/options.php:1751
+#: ../../theme/options.php:2176
+#: ../../theme/options.php:2590
+msgid "Links hover color"
+msgstr "Links cor hover"
+
+#: ../../theme/options.php:970
+msgid "Select font color for all links on hover."
+msgstr "Selecione a cor da fonte para todos os links ao passar."
+
+#: ../../theme/options.php:995
+msgid "Drop down menus styling"
+msgstr "Drop-down menus estilo"
+
+#: ../../theme/options.php:1008
+msgid "Select the background color for all drop down menus."
+msgstr "Selecione a cor de fundo para todos os menus."
+
+#: ../../theme/options.php:1013
+#: ../../theme/options.php:1359
+#: ../../theme/options.php:2240
+#: ../../theme/options.php:2313
+#: ../../theme/options.php:2369
+#: ../../theme/options.php:2431
+#: ../../theme/options.php:2641
+#: ../../theme/options.php:2720
+msgid "Border"
+msgstr "Fronteira"
+
+#: ../../theme/options.php:1014
+msgid "Select the border styling for all drop down menus."
+msgstr "Selecione o estilo de fronteira para todos os menus."
+
+#: ../../theme/options.php:1019
+msgid "Container shadow"
+msgstr "sombra Container"
+
+#: ../../theme/options.php:1020
+msgid "Select the shadow color for all drop down menus."
+msgstr "Selecione a cor de sombra para todos os menus."
+
+#: ../../theme/options.php:1025
+msgid "Container padding"
+msgstr "padding Container"
+
+#: ../../theme/options.php:1026
+msgid "Select the padding for the drop down menu container."
+msgstr "Selecione o preenchimento para o menu drop-down recipiente."
+
+#: ../../theme/options.php:1035
+msgid "Links default state"
+msgstr "Links estado padrão"
+
+#: ../../theme/options.php:1043
+msgid "Font"
+msgstr "Fonte"
+
+#: ../../theme/options.php:1044
+msgid "Select font style for the drop down menu links."
+msgstr "Selecione o estilo da fonte para os links do menu drop down."
+
+#: ../../theme/options.php:1049
+#: ../../theme/options.php:1178
+#: ../../theme/options.php:1288
+#: ../../theme/options.php:1570
+#: ../../theme/options.php:1715
+#: ../../theme/options.php:1866
+#: ../../theme/options.php:2547
+msgid "Bottom border"
+msgstr "borda inferior"
+
+#: ../../theme/options.php:1050
+msgid "Select the border style for all drop down menus links."
+msgstr "Selecione o estilo de borda para todos os menus links."
+
+#: ../../theme/options.php:1055
+#: ../../theme/options.php:1184
+#: ../../theme/options.php:1294
+#: ../../theme/options.php:1372
+#: ../../theme/options.php:1576
+#: ../../theme/options.php:1721
+#: ../../theme/options.php:1872
+#: ../../theme/options.php:2110
+#: ../../theme/options.php:2253
+#: ../../theme/options.php:2326
+#: ../../theme/options.php:2375
+#: ../../theme/options.php:2553
+#: ../../theme/options.php:2654
+msgid "Padding"
+msgstr "Acolchoamento"
+
+#: ../../theme/options.php:1056
+msgid "Select the drop down menu links padding."
+msgstr "Selecione o drop down menu links estofamento."
+
+#: ../../theme/options.php:1063
+msgid "Select background color for all drop down menus links."
+msgstr "Selecione a cor de fundo para todos os menus links."
+
+#: ../../theme/options.php:1068
+#: ../../theme/options.php:1098
+#: ../../theme/options.php:1403
+#: ../../theme/options.php:1490
+msgid "Shadow color"
+msgstr "cor de sombra"
+
+#: ../../theme/options.php:1069
+msgid "Select shadow color for all drop down menus links."
+msgstr "Selecione a cor de sombra para todos os menus links."
+
+#: ../../theme/options.php:1077
+msgid "Links hover state"
+msgstr "Links estado hover"
+
+#: ../../theme/options.php:1086
+#: ../../theme/options.php:2733
+msgid "Font color"
+msgstr "Cor da fonte"
+
+#: ../../theme/options.php:1087
+msgid "Select font color for all drop down menus active and hover links."
+msgstr "Selecione a cor da fonte para todos os menus e as ligações activas hover."
+
+#: ../../theme/options.php:1093
+msgid "Select background color for all drop down menus active and hover links."
+msgstr "Selecione a cor de fundo para todos os menus e as ligações activas hover."
+
+#: ../../theme/options.php:1099
+msgid "Select shadow color for all drop down menus active and hover links."
+msgstr "Selecione a cor de sombra para todos os menus e as ligações activas hover."
+
+#: ../../theme/options.php:1124
+msgid "Top navigation bar styling"
+msgstr "styling bar Top navegação"
+
+#: ../../theme/options.php:1137
+msgid "Select the background color for top navigation bar."
+msgstr "Selecione a cor de fundo para a barra de navegação superior."
+
+#: ../../theme/options.php:1143
+msgid "Upload an image for the top navigation bar background."
+msgstr "Carregar uma imagem para o fundo da barra de navegação superior."
+
+#: ../../theme/options.php:1164
+#: ../../theme/options.php:1274
+#: ../../theme/options.php:1351
+#: ../../theme/options.php:1459
+#: ../../theme/options.php:1556
+#: ../../theme/options.php:1701
+#: ../../theme/options.php:1852
+#: ../../theme/options.php:2533
+msgid "Borders & Padding"
+msgstr "Fronteiras e Padding"
+
+#: ../../theme/options.php:1172
+#: ../../theme/options.php:1282
+#: ../../theme/options.php:1564
+#: ../../theme/options.php:1709
+#: ../../theme/options.php:1860
+#: ../../theme/options.php:2541
+msgid "Top border"
+msgstr "borda superior"
+
+#: ../../theme/options.php:1173
+msgid "Select top border styling for the top navigation bar."
+msgstr "Selecione um estilo borda superior da barra de navegação superior."
+
+#: ../../theme/options.php:1179
+msgid "Select bottom border styling for the top navigation bar."
+msgstr "Selecione um estilo borda inferior da barra de navegação superior."
+
+#: ../../theme/options.php:1185
+msgid "Select how much padding should the top navigation area have."
+msgstr "Selecione a quantidade de preenchimento deve a área de navegação superior têm."
+
+#: ../../theme/options.php:1202
+#: ../../theme/options.php:1397
+msgid "Font styling"
+msgstr "estilo da fonte"
+
+#: ../../theme/options.php:1203
+msgid "Select font style for the top navigation bar links."
+msgstr "Selecione o estilo da fonte para os links barra superior de navegação."
+
+#: ../../theme/options.php:1209
+msgid "Select font color for the top navigation bar links on hover."
+msgstr "Selecione a cor da fonte para os links de navegação superior bar em hover."
+
+#: ../../theme/options.php:1234
+msgid "Header styling"
+msgstr "estilo de cabeçalho"
+
+#: ../../theme/options.php:1247
+msgid "Select the background color for the header."
+msgstr "Selecione a cor de fundo para o cabeçalho."
+
+#: ../../theme/options.php:1253
+#: ../../theme/options.php:2512
+msgid "Upload an image for the header."
+msgstr "Carregar uma imagem para o cabeçalho."
+
+#: ../../theme/options.php:1283
+msgid "Select top border styling for the header."
+msgstr "Selecione um estilo de borda superior do cabeçalho."
+
+#: ../../theme/options.php:1289
+msgid "Select bottom border styling for the header."
+msgstr "Selecione um estilo para a borda inferior do cabeçalho."
+
+#: ../../theme/options.php:1295
+msgid "Select how much padding should the header area have."
+msgstr "Selecione a quantidade de preenchimento deve ter a área de cabeçalho."
+
+#: ../../theme/options.php:1311
+msgid "Header links default state"
+msgstr "links cabeçalho estado padrão"
+
+#: ../../theme/options.php:1324
+msgid "Select the background color for the header links default state."
+msgstr "Selecione a cor de fundo para o cabeçalho links estado padrão."
+
+#: ../../theme/options.php:1330
+#: ../../theme/options.php:1438
+msgid "Upload an image for the header links default state background."
+msgstr "Carregar uma imagem para o cabeçalho links fundo estado padrão."
+
+#: ../../theme/options.php:1360
+msgid "Select border styling for the header links default state."
+msgstr "Selecione um estilo de borda para as ligações de cabeçalho estado padrão."
+
+#: ../../theme/options.php:1365
+#: ../../theme/options.php:1959
+#: ../../theme/options.php:2008
+#: ../../theme/options.php:2103
+#: ../../theme/options.php:2246
+#: ../../theme/options.php:2319
+#: ../../theme/options.php:2647
+#: ../../theme/options.php:2726
+msgid "Border radius"
+msgstr "raio Fronteira"
+
+#: ../../theme/options.php:1366
+msgid "Select border radius for the header links default state."
+msgstr "raio de borda de seleção para os links de cabeçalho estado padrão."
+
+#: ../../theme/options.php:1373
+msgid "Select padding for the header links default state."
+msgstr "Selecione padding para as ligações de cabeçalho estado padrão."
+
+#: ../../theme/options.php:1379
+msgid "Horizontal spacing"
+msgstr "Horizontal espaçamento"
+
+#: ../../theme/options.php:1380
+msgid "Select horizontal spacing for the header links."
+msgstr "Selecione o espaçamento horizontal para as ligações de cabeçalho."
+
+#: ../../theme/options.php:1398
+msgid "Select font style for the header links."
+msgstr "Selecione o estilo da fonte para os links de cabeçalho."
+
+#: ../../theme/options.php:1404
+msgid "Select shadow color for the header links."
+msgstr "Selecione a cor de sombra para os links de cabeçalho."
+
+#: ../../theme/options.php:1419
+msgid "Header links hover/active state"
+msgstr "Cabeçalho hover links / estado ativo "
+
+#: ../../theme/options.php:1432
+msgid "Select the background color for the header links hover/active state."
+msgstr "Selecione a cor de fundo para o cabeçalho links hover / estado ativo."
+
+#: ../../theme/options.php:1467
+#: ../../theme/options.php:1780
+#: ../../theme/options.php:1953
+#: ../../theme/options.php:2002
+#: ../../theme/options.php:2097
+#: ../../theme/options.php:2684
+msgid "Border color"
+msgstr "Cor da borda"
+
+#: ../../theme/options.php:1468
+msgid "Select border color for the header links hover/active state."
+msgstr "Selecione cor da borda para as ligações de cabeçalho hover / estado ativo."
+
+#: ../../theme/options.php:1484
+msgid "Link color"
+msgstr "Cor do link"
+
+#: ../../theme/options.php:1485
+msgid "Select font style for the header links on hover."
+msgstr "Selecione o estilo da fonte para os links no cabeçalho hover."
+
+#: ../../theme/options.php:1491
+msgid "Select shadow color for the header links on hover."
+msgstr "Selecione a cor de sombra para os links no cabeçalho hover."
+
+#: ../../theme/options.php:1516
+msgid "Featured area styling"
+msgstr "styling área em destaque"
+
+#: ../../theme/options.php:1529
+msgid "Select the background color for the featured and page title areas."
+msgstr "Selecione a cor de fundo para as áreas de destaque título e página."
+
+#: ../../theme/options.php:1535
+msgid "Upload an image for the featured area background."
+msgstr "Carregar uma imagem para o fundo da área de destaque."
+
+#: ../../theme/options.php:1565
+msgid "Select top border styling for the featured area."
+msgstr "Selecione um estilo borda superior para a área em destaque."
+
+#: ../../theme/options.php:1571
+msgid "Select bottom border styling for the featured area."
+msgstr "Selecione um estilo borda inferior para a área em destaque."
+
+#: ../../theme/options.php:1577
+msgid "Select how much padding should the featured area have."
+msgstr "Selecione a quantidade de preenchimento deve ter destaque na área."
+
+#: ../../theme/options.php:1594
+#: ../../theme/options.php:2044
+#: ../../theme/options.php:2164
+#: ../../theme/options.php:2260
+#: ../../theme/options.php:2571
+msgid "Text color"
+msgstr "Cor do texto"
+
+#: ../../theme/options.php:1595
+msgid "Select font color for the featured area text."
+msgstr "Selecione a cor da fonte para a área de texto em destaque."
+
+#: ../../theme/options.php:1601
+msgid "Select font color for the featured area links."
+msgstr "Selecione a cor da fonte para a área de links em destaque."
+
+#: ../../theme/options.php:1607
+msgid "Select font color for the featured area links on hover."
+msgstr "Selecione a cor da fonte para os links de destaque na área em foco."
+
+#: ../../theme/options.php:1615
+msgid "Headings"
+msgstr "Headings"
+
+#: ../../theme/options.php:1623
+msgid "Headings font"
+msgstr "font Headings"
+
+#: ../../theme/options.php:1624
+msgid "Select font color and style for the featured area headings."
+msgstr "Selecione cor e estilo para os títulos de domínio destacados."
+
+#: ../../theme/options.php:1629
+msgid "Headings shadow color"
+msgstr "Headings cor da sombra"
+
+#: ../../theme/options.php:1630
+msgid "Select shadow color for the featured area headings."
+msgstr "Selecione a cor de sombra para os títulos de domínio destacados."
+
+#: ../../theme/options.php:1635
+msgid "SubHeading font"
+msgstr "Subtítulo fonte"
+
+#: ../../theme/options.php:1636
+msgid "Select font color and style for the featured area sub headings."
+msgstr "Selecione cor e estilo para os subtítulos área em destaque."
+
+#: ../../theme/options.php:1661
+msgid "Breadcrumb styling"
+msgstr "styling Breadcrumb"
+
+#: ../../theme/options.php:1674
+msgid "Select the background color for the breadcrumb."
+msgstr "Selecione a cor de fundo da trilha."
+
+#: ../../theme/options.php:1680
+msgid "Upload an image for the breadcrumb."
+msgstr "Carregar uma imagem para a trilha."
+
+#: ../../theme/options.php:1710
+msgid "Select top border styling for the breadcrumb."
+msgstr "Selecione um estilo borda superior para a trilha."
+
+#: ../../theme/options.php:1716
+msgid "Select bottom border styling for the breadcrumb."
+msgstr "Selecione um estilo para a borda inferior breadcrumb."
+
+#: ../../theme/options.php:1722
+msgid "Select how much padding should the breadcrumb area have."
+msgstr "Selecione a quantidade de preenchimento deve ter a área de trilha."
+
+#: ../../theme/options.php:1739
+msgid "Breadcrumb font"
+msgstr "font Breadcrumb"
+
+#: ../../theme/options.php:1740
+msgid "Select font style for the breadcrumb area text."
+msgstr "Selecione o estilo da fonte para o texto da área de trilha."
+
+#: ../../theme/options.php:1746
+msgid "Select font color for the breadcrumb links."
+msgstr "Selecione a cor da fonte para os links de navegação."
+
+#: ../../theme/options.php:1752
+msgid "Select font color for the breadcrumb links on hover."
+msgstr "Selecione a cor da fonte para os links de navegação em hover."
+
+#: ../../theme/options.php:1757
+msgid "Font shadow color"
+msgstr "Cor da sombra"
+
+#: ../../theme/options.php:1758
+msgid "Select the font shadow color for the breadcrumb text."
+msgstr "Selecione a cor da sombra fonte do texto breadcrumb."
+
+#: ../../theme/options.php:1766
+msgid "Slider bullets"
+msgstr "balas Slider"
+
+#: ../../theme/options.php:1775
+msgid "Select background color for the featured slider bullets."
+msgstr "Selecione a cor de fundo para as balas slider destaque."
+
+#: ../../theme/options.php:1781
+msgid "Select border color for the featured slider bullets."
+msgstr "Selecione a cor de borda para as balas slider destaque."
+
+#: ../../theme/options.php:1786
+msgid "Background color hover"
+msgstr "Hover cor de fundo"
+
+#: ../../theme/options.php:1787
+msgid "Select background color for the featured slider bullets hover."
+msgstr "Selecione a cor de fundo para o destaque hover balas slider."
+
+#: ../../theme/options.php:1812
+msgid "Main content area styling"
+msgstr "Principais styling área de conteúdo"
+
+#: ../../theme/options.php:1825
+msgid "Select the background color for the main content area."
+msgstr "Selecione a cor de fundo para a área de conteúdo principal."
+
+#: ../../theme/options.php:1831
+msgid "Upload an image for the main content area background."
+msgstr "Carregar uma imagem para o fundo principal área de conteúdo."
+
+#: ../../theme/options.php:1861
+msgid "Select top border styling for the main area."
+msgstr "Selecione um estilo borda superior para a área principal."
+
+#: ../../theme/options.php:1867
+msgid "Select bottom border styling for the main area."
+msgstr "Selecione um estilo para a borda inferior da área principal."
+
+#: ../../theme/options.php:1873
+msgid "Select how much padding should the main content area have."
+msgstr "Selecione a quantidade de preenchimento deve a área de conteúdo principal ter."
+
+#: ../../theme/options.php:1882
+msgid "Content headings"
+msgstr "posições conteúdo"
+
+#: ../../theme/options.php:1890
+msgid "Font style"
+msgstr "Estilo da fonte"
+
+#: ../../theme/options.php:1891
+msgid "Select font style for the main content area headings (h1,h2,h3,h4,h5,h6). Font size will not be used."
+msgstr "Selecione o estilo da fonte para os títulos de domínio de conteúdo (H1, H2, H3, H4, H5, H6). Tamanho da fonte não será utilizado."
+
+#: ../../theme/options.php:1916
+msgid "Homepage post box"
+msgstr "Homepage caixa postal"
+
+#: ../../theme/options.php:1929
+msgid "Select the background color for the post box."
+msgstr "Selecione a cor de fundo da caixa postal."
+
+#: ../../theme/options.php:1935
+msgid "Upload an image for the post box background."
+msgstr "Carregar uma imagem para o fundo caixa postal."
+
+#: ../../theme/options.php:1954
+msgid "Select the border color for post box."
+msgstr "Selecione a cor da borda para caixa postal."
+
+#: ../../theme/options.php:1960
+msgid "Select rounded corners radius for post box."
+msgstr "Selecione cantos arredondados de raio para a caixa postal."
+
+#: ../../theme/options.php:1969
+msgid "Post box heading"
+msgstr "Post caixa de posição"
+
+#: ../../theme/options.php:1978
+msgid "Select the background color for the post box heading."
+msgstr "Selecione a cor de fundo da caixa postal posição."
+
+#: ../../theme/options.php:1984
+msgid "Upload an image for the post box heading background."
+msgstr "Carregar uma imagem para a caixa postal posição de fundo."
+
+#: ../../theme/options.php:2003
+msgid "Select the border color for post box heading."
+msgstr "Marque a caixa de cor da borda para o post de título."
+
+#: ../../theme/options.php:2009
+msgid "Select rounded corners radius for post box heading."
+msgstr "Selecione cantos arredondados de raio para caixa postal posição."
+
+#: ../../theme/options.php:2015
+#: ../../theme/options.php:2382
+msgid "Heading typography"
+msgstr "Designação de tipografia"
+
+#: ../../theme/options.php:2016
+#: ../../theme/options.php:2129
+msgid "Select font color and style for the post box heading."
+msgstr "Selecione cor e estilo para a caixa postal posição."
+
+#: ../../theme/options.php:2021
+msgid "Heading link hover color"
+msgstr "Designação cor pairam link"
+
+#: ../../theme/options.php:2022
+msgid "Select the link color for post box heading link on hover."
+msgstr "Marque a caixa de cor do link para o post no link hover posição."
+
+#: ../../theme/options.php:2027
+msgid "Heading link shadow color"
+msgstr "Designação cor da sombra link"
+
+#: ../../theme/options.php:2028
+msgid "Select the link shadow color for post box heading link."
+msgstr "Selecione a cor da sombra link para caixa postal posição link."
+
+#: ../../theme/options.php:2036
+msgid "Post box content"
+msgstr "Post conteúdo da caixa de"
+
+#: ../../theme/options.php:2045
+msgid "Select the text color for post box content text."
+msgstr "Selecione a cor do texto para postar conteúdo de texto caixa."
+
+#: ../../theme/options.php:2060
+msgid "Blog post big"
+msgstr "Blog post grande"
+
+#: ../../theme/options.php:2073
+msgid "Select the background color for the big post box."
+msgstr "Selecione a cor de fundo da caixa de correio grande."
+
+#: ../../theme/options.php:2079
+msgid "Upload an image for the big post box background."
+msgstr "Carregar uma imagem para o fundo grande caixa postal."
+
+#: ../../theme/options.php:2098
+msgid "Select the border style for the big post box."
+msgstr "Selecione o estilo de borda da caixa de correio grande."
+
+#: ../../theme/options.php:2104
+msgid "Select rounded corners radius for the big post box."
+msgstr "Selecione cantos arredondados de raio para a caixa de correio grande."
+
+#: ../../theme/options.php:2111
+msgid "Select how much padding should the big post box have."
+msgstr "Selecione a quantidade de preenchimento se o caixa postal grandes têm."
+
+#: ../../theme/options.php:2120
+msgid "Post heading"
+msgstr "Post posição"
+
+#: ../../theme/options.php:2134
+msgid "Heading hover color"
+msgstr "Designação cor pairam"
+
+#: ../../theme/options.php:2135
+msgid "Select the font color for the post heading on hover."
+msgstr "Selecione a cor da fonte para o cargo em posição hover."
+
+#: ../../theme/options.php:2140
+msgid "Heading hover decoration"
+msgstr "Designação decoração hover"
+
+#: ../../theme/options.php:2141
+msgid "Select the font decoration for the post heading on hover."
+msgstr "Selecione a decoração da fonte para o cargo em posição hover."
+
+#: ../../theme/options.php:2147
+msgid "Heading hover background"
+msgstr "A posição de fundo hover"
+
+#: ../../theme/options.php:2148
+msgid "Select the background color for the post heading on hover."
+msgstr "Selecione a cor de fundo para o cargo em posição hover."
+
+#: ../../theme/options.php:2156
+msgid "Post content"
+msgstr "Post conteúdo"
+
+#: ../../theme/options.php:2165
+msgid "Select the font color for the post content."
+msgstr "Selecione a cor da fonte para o conteúdo do post."
+
+#: ../../theme/options.php:2171
+msgid "Select font color for the post content links."
+msgstr "Selecione a cor da fonte para os links de conteúdo do post."
+
+#: ../../theme/options.php:2177
+msgid "Select font color for the post content links on hover."
+msgstr "Selecione a cor da fonte para os links de postar conteúdo em foco."
+
+#: ../../theme/options.php:2203
+msgid "Sidebar area styling"
+msgstr "Sidebar styling área"
+
+#: ../../theme/options.php:2216
+msgid "Select the background color for the sidebar area."
+msgstr "Selecione a cor de fundo para a área da barra lateral."
+
+#: ../../theme/options.php:2222
+msgid "Upload an image for the sidebar area background."
+msgstr "Carregar uma imagem para o fundo área da barra lateral."
+
+#: ../../theme/options.php:2241
+msgid "Select the border color for the sidebar area."
+msgstr "Selecione a cor da borda para a área da barra lateral."
+
+#: ../../theme/options.php:2247
+msgid "Select rounded corners radius for the sidebar area."
+msgstr "Selecione cantos arredondados de raio para a área da barra lateral."
+
+#: ../../theme/options.php:2254
+msgid "Select how much padding should the sidebar area have."
+msgstr "Selecione a quantidade de preenchimento deve ter a área da barra lateral."
+
+#: ../../theme/options.php:2261
+msgid "Select the font color for the sidebar content text."
+msgstr "Selecione a cor da fonte para o texto de conteúdo da barra lateral."
+
+#: ../../theme/options.php:2276
+msgid "Sidebar widgets styling"
+msgstr "Sidebar Widgets styling"
+
+#: ../../theme/options.php:2289
+msgid "Select the background color for the sidebar widget."
+msgstr "Selecione a cor de fundo para o widget da barra lateral."
+
+#: ../../theme/options.php:2295
+msgid "Upload an image for the sidebar widget background."
+msgstr "Carregar uma imagem para o fundo da barra lateral widget."
+
+#: ../../theme/options.php:2314
+msgid "Select the border color for the sidebar widget."
+msgstr "Selecione a cor da borda para o widget da barra lateral."
+
+#: ../../theme/options.php:2320
+msgid "Select rounded corners radius for the sidebar widget."
+msgstr "Selecione cantos arredondados de raio para o widget da barra lateral."
+
+#: ../../theme/options.php:2327
+msgid "Select how much padding should the sidebar widget have."
+msgstr "Selecione a quantidade de preenchimento deve ter o widget do sidebar."
+
+#: ../../theme/options.php:2336
+msgid "Widget header"
+msgstr "Widget cabeçalho"
+
+#: ../../theme/options.php:2345
+msgid "Select the background color for the sidebar widget heading."
+msgstr "Selecione a cor de fundo da barra lateral widget posição."
+
+#: ../../theme/options.php:2351
+msgid "Upload an image for the sidebar widget heading background."
+msgstr "Carregar uma imagem para a barra lateral widget posição de fundo."
+
+#: ../../theme/options.php:2370
+msgid "Select the border color for sidebar widget heading."
+msgstr "Selecione a cor da borda da barra lateral widget para o título."
+
+#: ../../theme/options.php:2376
+msgid "Select how much padding should the sidebar widget heading have."
+msgstr "Selecione a quantidade de preenchimento se o widget da barra lateral tem posição."
+
+#: ../../theme/options.php:2383
+#: ../../theme/options.php:2389
+msgid "Select font color and style for the sidebar widget heading."
+msgstr "Selecione cor e estilo para o widget da barra lateral posição."
+
+#: ../../theme/options.php:2388
+msgid "Heading transform"
+msgstr "Designação transformar"
+
+#: ../../theme/options.php:2398
+msgid "Widget content"
+msgstr "Widget conteúdo"
+
+#: ../../theme/options.php:2407
+msgid "Select the background color for the sidebar widget content."
+msgstr "Selecione a cor de fundo para o conteúdo widget da barra lateral"
+
+#: ../../theme/options.php:2413
+msgid "Upload an image for the sidebar widget content background."
+msgstr "Carregar uma imagem para o fundo da barra lateral widget conteúdo."
+
+#: ../../theme/options.php:2432
+msgid "Select the border color for sidebar widget content."
+msgstr "Selecione a cor da borda para o conteúdo widget da barra lateral."
+
+#: ../../theme/options.php:2440
+msgid "Widget content links"
+msgstr "links de conteúdo Widget"
+
+#: ../../theme/options.php:2448
+#: ../../theme/options.php:2678
+msgid "Color"
+msgstr "Cor"
+
+#: ../../theme/options.php:2449
+msgid "Select the font color for the sidebar widgets links."
+msgstr "Selecione a cor da fonte para os links da barra lateral widgets."
+
+#: ../../theme/options.php:2454
+msgid "Font weight"
+msgstr "Peso da fonte"
+
+#: ../../theme/options.php:2455
+msgid "Select the font weight for the sidebar widgets links."
+msgstr "Selecione a espessura da fonte para os links da barra lateral widgets."
+
+#: ../../theme/options.php:2461
+msgid "Hover color"
+msgstr "cor Hover"
+
+#: ../../theme/options.php:2462
+msgid "Select the font color for the sidebar widgets links on hover."
+msgstr "Selecione a cor da fonte para os links de widgets na sidebar hover."
+
+#: ../../theme/options.php:2467
+msgid "Hover background"
+msgstr "fundo Hover"
+
+#: ../../theme/options.php:2468
+msgid "Select the background color for the sidebar widgets links on hover."
+msgstr "Selecione a cor de fundo para os links da barra lateral widgets em hove"
+
+#: ../../theme/options.php:2493
+msgid "Footer area styling"
+msgstr "Rodapé styling área"
+
+#: ../../theme/options.php:2506
+msgid "Select the background color for the footer."
+msgstr "Selecione a cor de fundo para o rodapé."
+
+#: ../../theme/options.php:2542
+msgid "Select top border styling for the footer area."
+msgstr "Selecione um estilo borda superior para a área de rodapé."
+
+#: ../../theme/options.php:2548
+msgid "Select bottom border styling for the footer area."
+msgstr "Selecione um estilo borda inferior para a área de rodapé."
+
+#: ../../theme/options.php:2554
+msgid "Select how much padding should the footer area have."
+msgstr "Selecione a quantidade de preenchimento deve ter a área de rodapé."
+
+#: ../../theme/options.php:2572
+msgid "Select text color for the footer area content."
+msgstr "Selecione a cor do texto para a área de conteúdo no rodapé."
+
+#: ../../theme/options.php:2577
+msgid "Links weight"
+msgstr "peso Links"
+
+#: ../../theme/options.php:2578
+msgid "Select weight for the footer links."
+msgstr "Selecione o peso para os links de rodapé."
+
+#: ../../theme/options.php:2585
+msgid "Select font color for the footer area links."
+msgstr "Selecione a cor da fonte para os links de rodapé."
+
+#: ../../theme/options.php:2591
+msgid "Select font color for the footer area links on hover."
+msgstr "Selecione a cor da fonte para os links de rodapé área em foco."
+
+#: ../../theme/options.php:2617
+msgid "Inputs &amp; Textareas"
+msgstr "Entradas e textareas"
+
+#: ../../theme/options.php:2621
+msgid "Default state"
+msgstr "Estado padrão"
+
+#: ../../theme/options.php:2630
+msgid "Select font style for all form inputs and textareas."
+msgstr "Selecione o estilo da fonte para todos os inputs e textareas formulário."
+
+#: ../../theme/options.php:2636
+msgid "Select background color for all form inputs and textareas."
+msgstr "Selecione a cor de fundo para todas as entradas formulário e textareas."
+
+#: ../../theme/options.php:2642
+msgid "Select border styling for all form inputs and textareas."
+msgstr "Selecione um estilo de fronteira para todos os inputs e textareas formulário."
+
+#: ../../theme/options.php:2648
+msgid "Select border radius for all form inputs and textareas."
+msgstr "raio de borda de seleção para todas as entradas de formulário e textareas."
+
+#: ../../theme/options.php:2655
+msgid "Select padding for all form inputs and textareas."
+msgstr "Selecione preenchimento de todos os insumos forma e textareas."
+
+#: ../../theme/options.php:2664
+msgid "Focus state"
+msgstr "Estado Focus"
+
+#: ../../theme/options.php:2673
+msgid "Select background color for all form inputs and textareas on focus."
+msgstr "Selecione a cor de fundo para todas as entradas formulário e textareas em foco."
+
+#: ../../theme/options.php:2679
+msgid "Select font color for all form inputs and textareas on focus."
+msgstr "Selecione a cor da fonte para todos os inputs e textareas forma em foco."
+
+#: ../../theme/options.php:2685
+msgid "Select border color for all form inputs and textareas on focus."
+msgstr "Selecione a cor das fronteiras para todos os inputs e textareas forma em foco."
+
+#: ../../theme/options.php:2700
+msgid "Comment styling"
+msgstr "Comentário styling"
+
+#: ../../theme/options.php:2709
+#: ../../theme/options.php:2734
+msgid "Select the background color for the for each comment."
+msgstr "Selecione a cor de fundo para o para cada comentário."
+
+#: ../../theme/options.php:2714
+msgid "Gravatar background"
+msgstr "fundo Gravatar"
+
+#: ../../theme/options.php:2715
+msgid "Select the background color for the gravatar container, for each comment."
+msgstr "Selecione a cor de fundo para o recipiente gravatar, para cada comentário."
+
+#: ../../theme/options.php:2721
+msgid "Select border style for the for each comment."
+msgstr "Selecione o estilo de borda para o para cada comentário."
+
+#: ../../theme/options.php:2727
+msgid "Select border radius for each comment."
+msgstr "Raio de borda de seleção para cada comentário."
+
+#: ../../theme/options.php:2772
+msgid "Documentation"
+msgstr "Documentação"
+
+#: ../../theme/options.php:2778
+msgid "Tutorials"
+msgstr "Tutoriais"
+
+#: ../../theme/options.php:2784
+msgid "News"
+msgstr "Notícia"
+
+#: ../../../404.php:9
+msgid "Uh, oh !"
+msgstr "Não encontrou"
+
+#: ../../../404.php:11
+msgid "Looks like the page you're looking for isn't here anymore."
+msgstr "Parece que a página que você está procurando não está mais aqui."
+
+#: ../../../404.php:21
+msgid "Feeds"
+msgstr "Feeds"
+
+#: ../../../404.php:23
+msgid "Main RSS"
+msgstr "Principal RSS"
+
+#: ../../../404.php:24
+msgid "Comment Feed"
+msgstr "Comentário Feed"
+
+#: ../../../404.php:28
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../../../404.php:32
+msgid "All internal blog posts:"
+msgstr "Todos os internos no blog:"
+
+#: ../../../comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Este post é protegido por senha. Digite a senha para ver todos os comentários."
+
+#: ../../../comments.php:29
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Comentários mais antigos"
+
+#: ../../../comments.php:30
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Comentários Recentes <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../../../comments.php:39
+msgid "Comments are closed."
+msgstr "Comentários estão fechados."
+
+#: ../../../featured_posts_area.php:838
+#: ../../../index.php:92
+#: ../../../static_homepage.php:839
+msgid "There are no blog posts"
+msgstr "Não existem posts"
+
+#: ../../../single.php:63
+msgid "&laquo; Previous Entries"
+msgstr "&laquo;  Entradas Anteriores"
+
+#: ../../../single.php:64
+msgid "Next Entries &raquo;"
+msgstr "Próximo Entradas &raquo;"
+
+#: ../../../single.php:73
+msgid "Share this Post:"
+msgstr "Compartilhe este Post:"
+
+#: ../../../sitemap.php:44
+msgid "Archives"
+msgstr "Arquivo"
+
+#: ../../../includes/blog_post.php:54
+msgid "% Responses"
+msgstr "% Respostas"
+

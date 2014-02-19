@@ -1,0 +1,5 @@
+2012-01-03 - Version 1.1
+* Fixed the custom background defined in the WordPress admin panel does not appear after the WordPress 3.3 update
+
+2011-11-02 - Version 1.0
+* Initial theme release!

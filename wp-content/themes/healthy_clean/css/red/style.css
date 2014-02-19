@@ -1,0 +1,129 @@
+
+.logo
+{
+	position:absolute;
+	top:0px;
+	z-index:999;
+	background:url(images/logo.png) no-repeat center top;
+	height:125px;
+	width:950px;
+	padding-top:40px;
+	margin:auto;
+	text-align:center;
+}
+
+.logo span
+{
+	clear:left;
+	float:left;
+	width:100%;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	padding:15px 0 0;
+	color:#ffcc66;
+}
+/* =Menu
+-------------------------------------------------------------- */
+#access {
+	background: url(images/menu.png) no-repeat -5px top;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	width: 983px;
+	height:96px;
+}
+
+#access li:hover > a,
+#access ul ul :hover > a {
+	background: #be1010;
+	color: #fff;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-o-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #CCCCCC inset;
+	-webkit-box-shadow: 0 0 5px #000 inset;
+	-moz-box-shadow: 0 0 5px #000 inset;
+	-o-box-shadow: 0 0 5px #000 inset;
+	border:0px solid #696969;
+	
+}
+
+.indexpost_container h3 a
+{
+	font-size:16px;
+	font-weight:bold;
+	font-family:"Trajan Pro";
+	text-decoration:none;
+	color: #E4052D;
+}
+
+.post_content .read-more
+{
+	background:url(images/btn_bg.gif) repeat-x left top;
+	padding:1px 10px;
+	color:#fff;
+	text-decoration:none;
+	float:right;
+	border:1px solid #d60b0b;
+}
+
+.right_sidebarcontent h3
+{
+	background: url("images/heading_bg.png") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    height: 28px;
+    margin-left: -9px;
+    margin-top: 9px;
+    padding: 14px 0 0 13px;
+    width: 145px;
+}
+
+
+#content .welcome_content h3
+{
+	background:url(images/heading_side.png) no-repeat left top;
+	height:42px;
+	width:100%;
+	margin-left:-19px;
+	float:left;
+}
+
+
+#content .welcome_content h3 a
+{
+	background: none repeat scroll 0 0 #CA1333;
+    color: #FFFFFF;
+    float: left;
+    height: 27px;
+    margin-left: 9px;
+    margin-top: 6px;
+	font-size:16px;
+    padding: 9px 10px 0 5px;
+    text-decoration: none;
+	font-family:"Trajan Pro";
+}
+#footer #site-info p
+{
+	padding-left:30px;	
+	width:325px!important;
+	float:left;
+}
+#site-generator a {
+	color: #E4052D;
+	display: inline-block;
+	line-height: 16px;
+	padding-left: 4px;
+	text-decoration: none;
+}
+#site-generator a:hover {
+	text-decoration: underline;
+}
+#site-info a {
+	color: #E4052D;
+	text-decoration: none;
+}

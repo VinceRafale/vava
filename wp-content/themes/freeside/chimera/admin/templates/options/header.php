@@ -1,0 +1,1 @@
+<div class="clear"></div><h1 class="chimera_title"><?php echo $name; ?></h1>
