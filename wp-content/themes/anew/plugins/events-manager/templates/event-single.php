@@ -34,8 +34,7 @@ echo EM_Events::output(array('format'=>
 		
 
 		',
-		'limit'=>1,
-	 	'pagination'=>1
+		'limit'=>1
 	)
 );
 

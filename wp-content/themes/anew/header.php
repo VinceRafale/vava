@@ -11,7 +11,26 @@
 
 	<?php wp_head(); ?>
 </head>
-
+<script type="text/javascript">	
+	window.onload=function(){
+		for (var i=0; i < 5; i++)
+		{
+			document.getElementById('next').click();
+			//setTimeout(document.getElementById('next').click();, 2000);
+		}
+	};
+/*
+	$(document).ready(function(){
+			$('#next').trigger('click');
+		  });
+	
+		window.onload = automatic_play(){
+			alert("Ahoj");
+			document.getElementById('next').click();
+		};
+*/
+// alert("Ahoj");
+</script>
 <body <?php body_class(); ?>>
 
 <div id="wrapper">
@@ -20,17 +39,11 @@
 	
 		<?php if (has_nav_menu('topbar')): ?>
 			<nav class="nav-container group" id="nav-topbar">
-				<div class="nav-toggle"><i class="fa fa-bars"></i></div>
+				<div class="nav-toggle"><i class="fa fa-bars"><img src="<?php echo home_url('/'); ?>wp-content/themes/anew/img/menu-alt-512.png" title="Menu" /></i></div>
 				<div class="nav-text"><!-- put your mobile menu text here --></div>
 				<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'topbar','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>
 				
 				<div class="container">	
-					<div class="toggle-search"><i class="fa fa-search"></i></div>
-					<div class="search-expand">
-						<div class="search-expand-inner">
-							<?php get_search_form(); ?>
-						</div>
-					</div>
 				</div><!--/.container-->
 				
 			</nav><!--/#nav-topbar-->

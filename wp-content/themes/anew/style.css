@@ -267,11 +267,11 @@ h1, h2, h3, h4, h5, h6 { color: #444; font-weight: 600; -ms-word-wrap: break-wor
 .entry h1 span, .entry h2 span, .entry h3 span, .entry h4 span, .entry h5 span, .entry h6 span { color: #bbb; }
 .entry h1,.entry h2,.entry h3,.entry h4,.entry h5,.entry h6  { margin-bottom: 14px; font-weight: 400; line-height: 1.3em; }
 .entry h1 { font-size: 38px; letter-spacing: -1px; }
-.entry h2 { font-size: 34px; letter-spacing: -0.7px; }
-.entry h3 { font-size: 28px; letter-spacing: -0.5px; }
-.entry h4 { font-size: 24px; letter-spacing: -0.3px; }
-.entry h5 { font-size: 20px; font-weight: 600; }
-.entry h6 { font-size: 18px; font-weight: 600; }
+.entry h2 { font-size: 23px; letter-spacing: -0.7px; }
+.entry h3 { font-size: 20px; letter-spacing: -0.5px; }
+.entry h4 { font-size: 19px; letter-spacing: -0.3px; }
+.entry h5 { font-size: 17px; font-weight: 600; }
+.entry h6 { font-size: 15px; font-weight: 600; }
 
 .heading,
 #reply-title { color: #222; font-weight: normal; font-size: 18px; text-transform: uppercase; font-weight: 600; margin-bottom: 1em; }
@@ -848,7 +848,7 @@ box-shadow: 0 1px 0 rgba(0,0,0,0.05), 0 3px 3px rgba(0,0,0,0.05); }
 /*  single : post-nav
 /* ------------------------------------ */
 .post-nav li { width: 100%; display: inline; float: left; text-align: center; }
-.post-nav li a { position: relative; min-height: 77px; display: block; padding: 16px 46px 24px; }
+.post-nav li a { position: relative; min-height: 77px; display: block; padding: 16px 46px 0px; }
 .post-nav li i { color: #ccc; font-size: 18px; position: absolute; top: 50%; margin-top: -10px; }
 .post-nav li a strong { display: block; font-size: 13px; color: #bbb; letter-spacing: 0.5px; font-weight: normal; text-transform: uppercase; }
 .post-nav li a span { font-size: 16px; color: #444; }
@@ -1701,4 +1701,5 @@ width: 100%;
 margin-left: auto;
 margin-right: auto;
 min-height:200px;
+padding: 40px 0 80px 0;
 }

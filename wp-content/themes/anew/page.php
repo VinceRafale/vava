@@ -22,12 +22,12 @@
 			<?php if ( ot_get_option('page-comments') != '' ) { comments_template('/comments.php',true); } ?>
 			
 		<?php endwhile; ?>
-
-<div class="center-widget">
-<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('bottom-widget1') || !dynamic_sidebar('bottom-widget2') || !dynamic_sidebar('bottom-widget3')) : ?>
-[ do default stuff if no widgets ]
-<?php endif; ?>
-</div>		
+	<?php if(is_front_page() ) { ?>
+		<div class="center-widget">
+			<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('bottom-widget1') || !dynamic_sidebar('bottom-widget2') || !dynamic_sidebar('bottom-widget3')) : ?>
+	<?php endif; ?>
+		</div>	
+	<?php } ?>
 	</div><!--/.pad-->
 
 	

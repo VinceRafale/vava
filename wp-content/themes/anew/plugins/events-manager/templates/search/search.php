@@ -8,4 +8,5 @@
 	?>
 	<input type="text" name="em_search" class="em-events-search-text em-search-text" value="<?php echo $s; ?>" onfocus="if(this.value=='<?php echo $s_default; ?>')this.value=''" onblur="if(this.value=='')this.value='<?php echo $s_default; ?>'" />
 </div>
+ 
 <!-- END General Search -->

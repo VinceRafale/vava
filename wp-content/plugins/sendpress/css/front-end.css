@@ -23,11 +23,13 @@
 	.sendpress-signup-form #error{
             color: #F5FF02;
             margin: 0px 0px;
-            font-size: 11px;
+            font-size: 12px;
 	}
 	/* element where the thank you message shows upon successful submit */
 	.sendpress-signup-form #thanks{
-		margin:10px 0px;
+		margin: 0px 0px;
+                font-size: 12px;
+                line-height: 18px;
 	}
 	/*Extra fields that only exist if you have SendPress Pro*/
 	.signup-fields-bottom label{

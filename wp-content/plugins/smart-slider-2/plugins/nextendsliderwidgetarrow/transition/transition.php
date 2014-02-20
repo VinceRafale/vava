@@ -41,7 +41,7 @@ class plgNextendSliderWidgetArrowTransition extends plgNextendSliderWidgetAbstra
                 
                 $info = pathinfo($previous);
                 $class = 'nextend-arrow-previous nextend-transition nextend-transition-previous nextend-transition-previous-' . basename($previous, '.' . $info['extension']);
-                $html .= '<div onclick="njQuery(\'#' . $id . '\').smartslider(\'previous\');" class="' . $displayclass . $class . '" style="' . $style . '" '.$data.'><div class="smartslider-outer"></div><div class="smartslider-inner"></div></div>';
+                $html .= '<div id="prev" onclick="njQuery(\'#' . $id . '\').smartslider(\'previous\');" class="' . $displayclass . $class . '" style="' . $style . '" '.$data.'><div class="smartslider-outer"></div><div class="smartslider-inner"></div></div>';
             }
 
             if ($next && $next != -1) {
@@ -50,7 +50,7 @@ class plgNextendSliderWidgetArrowTransition extends plgNextendSliderWidgetAbstra
                 
                 $info = pathinfo($next);
                 $class = 'nextend-arrow-next nextend-transition nextend-transition-next nextend-transition-next-' . basename($next, '.' . $info['extension']);
-                $html .= '<div onclick="njQuery(\'#' . $id . '\').smartslider(\'next\');" class="' . $displayclass . $class . '" style="' . $style . '" '.$data.'><div class="smartslider-outer"></div><div class="smartslider-inner"></div></div>';
+                $html .= '<div id="next" onclick="njQuery(\'#' . $id . '\').smartslider(\'next\');" class="' . $displayclass . $class . '" style="' . $style . '" '.$data.'><div class="smartslider-outer"></div><div class="smartslider-inner"></div></div>';
             }
             
             $css->addCssFile('
