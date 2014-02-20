@@ -21,8 +21,9 @@
 	}
 	/* element where error messages are displayed */
 	.sendpress-signup-form #error{
-		color:#8B0000;
-		margin:10px 0px;
+            color: #F5FF02;
+            margin: 0px 0px;
+            font-size: 11px;
 	}
 	/* element where the thank you message shows upon successful submit */
 	.sendpress-signup-form #thanks{
