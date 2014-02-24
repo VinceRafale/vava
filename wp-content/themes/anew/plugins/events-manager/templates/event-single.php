@@ -26,6 +26,7 @@ echo EM_Events::output(array('format'=>
 		<div class="mytime"><img src="http://www.premiumweb.cz/testovaci/wp-content/uploads/2014/02/clock1.png" alt="icon clock" title="#_EVENTTIMES" width="14x"> Čas konání: #_EVENTTIMES</div><br>
 		{has_location}<div class="mylocation"><img src="http://www.premiumweb.cz/testovaci/wp-content/uploads/2014/02/location.png" title="místo konání" width="14x"> Místo konání: #_LOCATIONLINK</div><br>
 		{/has_location}
+		<div class="mycost"> Cena školení: #_ATT{cena}</div><span class="mycostdesc"> #_ATT{info-cena}</span><br>
 		<div class="mylector"><img src="http://www.premiumweb.cz/testovaci/wp-content/uploads/2014/02/clock1.png" alt="icon clock" title="#_EVENTTIMES" width="14x"> Lektor: #_ATT{skolitel}</div><br>
 		#_EVENTIMAGE
 		<h3>Program školení</h3>

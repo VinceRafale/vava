@@ -54,18 +54,21 @@
 
 			<div class="pad group">
 				<?php echo alx_site_title(); ?>
-				<?php if ( !ot_get_option('site-description') ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
+
+			<div class="contentslider">				
+				<!-- Slider -->
+				<div id="slider" class="slider">
+					<div id="pod-slider" class="pod-slider">
+					  <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('slider') ) : ?>
+											<?php include(TEMPLATEPATH . '/slider.php'); ?>
+					<?php endif; ?>
+					</div>
+				</div>
+				<!--  Slider end -->
+			</div>
 				<?php alx_social_links() ; ?>
 			</div>
-<!-- Slider -->
-<div id="slider" class="slider">
-<div id="pod-slider" class="pod-slider">
-  <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('slider') ) : ?>
-                        <?php include(TEMPLATEPATH . '/slider.php'); ?>
-<?php endif; ?>
-</div>
-</div>
-<!--  Slider end -->
+
 			<?php endif; ?>
 			<?php if ( ot_get_option('header-image') ): ?>
 				<a href="<?php echo home_url('/'); ?>" rel="home">
