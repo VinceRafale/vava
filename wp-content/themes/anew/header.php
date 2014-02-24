@@ -55,7 +55,7 @@
 			<div class="pad group">
 				<?php echo alx_site_title(); ?>
 
-			<div class="contentslider">				
+						
 				<!-- Slider -->
 				<div id="slider" class="slider">
 					<div id="pod-slider" class="pod-slider">
@@ -65,7 +65,7 @@
 					</div>
 				</div>
 				<!--  Slider end -->
-			</div>
+			
 				<?php alx_social_links() ; ?>
 			</div>
 

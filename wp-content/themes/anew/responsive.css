@@ -4,13 +4,11 @@
 #slider {
 	background-color:white;
 	padding:10px;
-	width: 550px;
+	float:right;
 	margin-left:auto;
 	margin-right:auto;
-	margin-bottom: -15px;
-	-webkit-box-shadow: 0px 10px 15px 0px rgba(50, 50, 50, 0.5);
-	-moz-box-shadow:    0px 10px 15px 0px rgba(50, 50, 50, 0.5);
-	box-shadow:         0px 10px 15px 0px rgba(50, 50, 50, 0.5);
+	margin-bottom: -10px;
+	
 	}
 #slider li {
 list-style:none;
@@ -188,9 +186,7 @@ list-style:none;
 	-moz-box-shadow:    0px 10px 15px 0px rgba(50, 50, 50, 0.5);
 	box-shadow:         0px 10px 15px 0px rgba(50, 50, 50, 0.5);
 	}
-#slider li {
-list-style:none;
-}
+#slider li { list-style:none; }
 	.widget-bottom1,.widget-bottom2,.widget-bottom3 { width:90%; min-height: 100px;}
 }
 
